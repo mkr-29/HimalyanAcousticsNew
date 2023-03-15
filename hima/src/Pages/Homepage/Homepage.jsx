@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
-// import Certifications from "./Components/Certifications";
-// import Footer from "./Components/Footer";
+import Certifications from "./Components/Certifications";
+import Footer from "./Components/Footer";
 import Achievements from "./Components/Achievements";
 
 export default function Homepage() {
@@ -9,8 +9,8 @@ export default function Homepage() {
     <div>
       <Navbar />
       <Achievements />
-      {/* <Certifications />
-      <Footer /> */}
+      <Certifications />
+      <Footer />
     </div>
   );
 }

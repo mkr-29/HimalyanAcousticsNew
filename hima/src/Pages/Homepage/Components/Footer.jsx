@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Footer extends Component {
   render() {
     return (
-      <footer className="container px-10 grid xl:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-6 border-t-2 border-gray-200">
+      <footer className="container px-10 grid xl:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-6 border-t-2 border-gray-200 pb-10">
         <div className="link-section flex justify-start flex-col">
           <h3 className="text-gray-400 font-bold py-2 px-1">
             Quick Product Links
