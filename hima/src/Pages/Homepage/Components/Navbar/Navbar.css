@@ -1,0 +1,23 @@
+.nav-up{
+    background-color: #262626;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0.5rem 0;
+}
+.nav-up-left{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-around;
+    margin-left: 5rem;
+}
+.nav-up-links{
+    font-size: 12px;
+}
+.nav-up-right{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    margin-right: 5rem;
+}
