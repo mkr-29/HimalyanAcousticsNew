@@ -1,0 +1,46 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    margin-top: 3rem;
+}
+.about-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.about-head{
+    font-size: 4rem;
+    color: red;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+}
+.about-desc{
+
+}
+.about-desc a{
+    color:red;
+}
+.about-desc span{
+    font-weight: 700;
+}
+.about-sub-head{
+    color: #6e6e6e;
+    font-size: 2rem;
+}
+.div-3{
+    display: flex;
+    justify-content: space-between;
+}
+.div-3 div{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-sub-desc{
+    text-align: center;
+    font-size: 12px;
+}
