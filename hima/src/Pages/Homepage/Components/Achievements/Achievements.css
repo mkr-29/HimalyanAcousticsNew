@@ -1,0 +1,9 @@
+.achievements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.achievements-body{
+    width: 90%;
+}

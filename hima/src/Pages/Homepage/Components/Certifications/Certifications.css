@@ -1,0 +1,9 @@
+.certifications{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#certifications-body{
+    width: 90% !important;
+}

@@ -1,0 +1,11 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-body{
+    width: 90%;
+}
+.link-section h3{
+    color: rgb(115, 115, 115);
+}
