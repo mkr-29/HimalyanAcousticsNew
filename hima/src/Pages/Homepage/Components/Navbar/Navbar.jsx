@@ -9,7 +9,7 @@ import HimalyanLogo from "./Assets/hima-logo.png"
 
 export default function Navbar() {
   return (
-    <div>
+    <div className="navbar">
       <div className="nav-up">
         <div className="nav-up-left">
           <Link className="nav-up-links" to="/">SUSTAINABILITY</Link>
@@ -28,7 +28,12 @@ export default function Navbar() {
       <div className="nav-down">
         <img src={HimalyanLogo} alt="himalyan-logo" />
         <div className="icos"></div>
-        <Link to="/"></Link>
+        <Link to="/">Home</Link>
+        <Link className="nav-down-links" to="/">OUR HISTORY</Link>
+        <Link className="nav-down-links" to="/">INSPIRING DESIGN</Link>
+        <Link className="nav-down-links" to="/">PRODUCT FINDER</Link>
+        <Link className="nav-down-links" to="/">REFERENCES</Link>
+        <Link className="nav-down-links" to="/">Contact Us</Link>
       </div>
     </div>
   );
