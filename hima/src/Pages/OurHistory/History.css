@@ -1,0 +1,10 @@
+/* background image from unsplash */
+.history{
+    margin-top: 8.1rem;
+    background-image: url("./Assets/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+}

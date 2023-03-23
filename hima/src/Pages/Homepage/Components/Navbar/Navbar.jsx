@@ -8,6 +8,9 @@ import Instagram from "./Assets/in.svg";
 import HimalyanLogo from "./Assets/hima-logo.png"
 
 export default function Navbar() {
+
+  
+
   return (
     <div className="navbar">
       <div className="nav-up">
@@ -28,8 +31,8 @@ export default function Navbar() {
       <div className="nav-down">
         <img src={HimalyanLogo} alt="himalyan-logo" />
         <div className="icos"></div>
-        <Link to="/">Home</Link>
-        <Link className="nav-down-links" to="/">OUR HISTORY</Link>
+        <Link className="home-icon" to="/">H</Link>
+        <Link className="nav-down-links" to="/our-history">OUR HISTORY</Link>
         <Link className="nav-down-links" to="/">INSPIRING DESIGN</Link>
         <Link className="nav-down-links" to="/">PRODUCT FINDER</Link>
         <Link className="nav-down-links" to="/">REFERENCES</Link>
