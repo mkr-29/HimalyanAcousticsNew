@@ -33,7 +33,7 @@ export default function Navbar() {
         <div className="icos"></div>
         <Link className="home-icon" to="/">H</Link>
         <Link className="nav-down-links" to="/our-history">OUR HISTORY</Link>
-        <Link className="nav-down-links" to="/">INSPIRING DESIGN</Link>
+        <Link className="nav-down-links" to="/inspiring-design">INSPIRING DESIGN</Link>
         <Link className="nav-down-links" to="/">PRODUCT FINDER</Link>
         <Link className="nav-down-links" to="/">REFERENCES</Link>
         <Link className="nav-down-links" to="/">Contact Us</Link>
