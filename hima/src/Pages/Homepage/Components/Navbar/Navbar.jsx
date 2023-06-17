@@ -6,7 +6,7 @@ import Instagram from "./Assets/in.svg";
 import HimalyanLogo from "./Assets/hima-logo.png";
 import React, { useState } from "react";
 import { Cross as Hamburger } from "hamburger-react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 
 export default function Navbar() {
   const [header, setHeader] = useState(false);
@@ -26,6 +26,13 @@ export default function Navbar() {
 
   const onClickHeader = () => {
     setIsOpen1(!isOpen1);
+  };
+
+  const location = useLocation();
+
+  // Define a helper function to determine if a link is active
+  const isLinkActive = (path) => {
+    return location.pathname === path ? 'active-navs' : 'nav-down-links';
   };
 
   return (
@@ -93,29 +100,29 @@ export default function Navbar() {
                   <div className="icos"></div>
                 </li>
                 <li>
-                  <Link activeClassName="active-nav-home" className="home-icon" exact to="/">
+                  <NavLink exact to="/" className="home-icon">
                     H
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link activeClassName="active-nav" className="nav-down-links" to="/our-history">
+                  <NavLink className={isLinkActive('/our-history')} to="/our-history">
                     OUR HISTORY
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link activeClassName="active-nav" className="nav-down-links" to="/projects">
+                  <NavLink className={isLinkActive('/projects')} to="/projects">
                     PROJECTS
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link activeClassName="active-nav" className="nav-down-links" to="/inspiring-design">
+                  <NavLink className={isLinkActive('/inspiring-design')} to="/inspiring-design">
                     INSPIRING DESIGN
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link activeClassName="active-nav" className="nav-down-links" to="/">
+                  <NavLink className={isLinkActive('/contact-us')} to="/contact-us">
                     CONTACT US
-                  </Link>
+                  </NavLink>
                 </li>
               </ul>
             </div>

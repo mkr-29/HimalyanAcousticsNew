@@ -76,20 +76,14 @@
   align-items: center;
   justify-content: space-between;
 } 
-.home-icon.active-nav-home{
-  background-color: #fff;
-}
-.nav-down-links.active-nav {
-  color: #b90000;
+.active-navs{
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 400px) {
   .header-logo img {
     width: 6rem;
     height: 3rem;
-  }
-  .header-logo {
-    /* margin-left: 1rem; */
   }
   .nav-up-right {
     margin-right: 0.4rem;
