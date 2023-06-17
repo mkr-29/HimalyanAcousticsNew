@@ -36,13 +36,13 @@ export default function Navbar() {
             SUSTAINABILITY
           </Link>
           <Link className="nav-up-links" to="/">
-            OUR ASSOCIATE PROGRAMME
+            PARTNER WITH US
           </Link>
           <Link className="nav-up-links" to="/">
-            GLOBAL PARTNERS
+            INTERNATIONAL COLLABORATION
           </Link>
           <Link className="nav-up-links" to="/">
-            DOWNLOAD
+            CERTIFICATION
           </Link>
           <Link className="nav-up-links" to="/">
             CARRIERS@HA
@@ -93,33 +93,28 @@ export default function Navbar() {
                   <div className="icos"></div>
                 </li>
                 <li>
-                  <Link className="home-icon" to="/">
+                  <Link activeClassName="active-nav-home" className="home-icon" exact to="/">
                     H
                   </Link>
                 </li>
                 <li>
-                  <Link className="nav-down-links" to="/our-history">
+                  <Link activeClassName="active-nav" className="nav-down-links" to="/our-history">
                     OUR HISTORY
                   </Link>
                 </li>
                 <li>
-                  <Link className="nav-down-links" to="/inspiring-design">
+                  <Link activeClassName="active-nav" className="nav-down-links" to="/projects">
+                    PROJECTS
+                  </Link>
+                </li>
+                <li>
+                  <Link activeClassName="active-nav" className="nav-down-links" to="/inspiring-design">
                     INSPIRING DESIGN
                   </Link>
                 </li>
                 <li>
-                  <Link className="nav-down-links" to="/">
-                    PRODUCT FINDER
-                  </Link>
-                </li>
-                <li>
-                  <Link className="nav-down-links" to="/">
-                    REFERENCES
-                  </Link>
-                </li>
-                <li>
-                  <Link className="nav-down-links" to="/">
-                    Contact Us
+                  <Link activeClassName="active-nav" className="nav-down-links" to="/">
+                    CONTACT US
                   </Link>
                 </li>
               </ul>

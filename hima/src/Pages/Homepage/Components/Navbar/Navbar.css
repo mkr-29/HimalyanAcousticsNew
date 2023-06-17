@@ -75,6 +75,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+} 
+.home-icon.active-nav-home{
+  background-color: #fff;
+}
+.nav-down-links.active-nav {
+  color: #b90000;
 }
 
 @media screen and (max-width: 400px) {
