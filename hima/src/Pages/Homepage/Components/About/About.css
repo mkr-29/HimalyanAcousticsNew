@@ -9,16 +9,18 @@
     width: 40%;
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 3rem;
 }
 .about-head{
-    font-size: 4rem;
-    color: red;
+    font-size: 50px;
+    color: #dd2b1c;
     line-height: 4rem;
     margin-bottom: 1rem;
+    font-weight: 700;
+    line-height: 50px;
 }
 .about-desc{
-
+    font-size: 16px;
 }
 .about-desc a{
     color:red;
@@ -28,7 +30,13 @@
 }
 .about-sub-head{
     color: #6e6e6e;
-    font-size: 2rem;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.about-sub-head span{
+    font-weight: 400;
+    font-size: 35px;
 }
 .div-3{
     display: flex;
@@ -43,4 +51,9 @@
 .about-sub-desc{
     text-align: center;
     font-size: 12px;
+}
+.div-2{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }

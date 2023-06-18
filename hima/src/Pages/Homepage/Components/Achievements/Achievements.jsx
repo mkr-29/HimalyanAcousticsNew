@@ -8,72 +8,50 @@ class Achievements extends Component {
       <div className="achievements">
         <div className="achievements-body container grid lg:grid-cols-2 grid-cols-1 my-10 px-6 gap-4">
           <div className="achievements-container">
-            <h1 className="text-3xl font-bolder mx-6">Achievements</h1>
-            <div className="achievement-container grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-3">
-              <div className="achievement shadow-md p-4 inline-block">
-                <h1 className="font-normal text-red-500 text-3xl text-center">
-                  500+
-                </h1>
-                <p className="font-normal text-center">
-                  Products developed Still Expanding
-                </p>
+            <h1 className="ach-head">Achievements</h1>
+            <div className="achievement-container">
+              <div className="ach-cont-1">
+                <div className="achievement">
+                  <h3>500+</h3>
+                  <p>Projects Delivered Still expanding</p>
+                </div>
+                <div className="achievement">
+                  <h3>
+                    4.0 <span className="text-sm text-bold">Million</span>
+                  </h3>
+                  <p>Soft Delivered & Still Counting</p>
+                </div>
+                <div className="achievement">
+                  <h3>50+</h3>
+                  <p>HNI Projects Delivered</p>
+                </div>
+                <div className="achievement">
+                  <h3>15+</h3>
+                  <p>Years & Still Counting</p>
+                </div>
               </div>
-              <div className="achievement shadow-md p-4 inline-block">
-                <h1 className="font-normal text-red-500 text-3xl text-center">
-                  4.0 <span className="text-sm text-bold">Million</span>
-                </h1>
-                <p className="font-normal text-center">
-                  Products developed Still Expanding
-                </p>
-              </div>
-              <div className="achievement shadow-md p-4 inline-block">
-                <h1 className="font-normal text-red-500 text-3xl text-center">
-                  50+
-                </h1>
-                <p className="font-normal text-center">
-                  HNI Projects Delivered
-                </p>
-              </div>
-              <div className="achievement shadow-md p-4 inline-block">
-                <h1 className="font-normal text-red-500 text-3xl text-center">
-                  15+
-                </h1>
-                <p className="font-normal text-center">
-                  Years and still counting
-                </p>
-              </div>
-              <div className="achievement shadow-md p-4 inline-block">
-                <h1 className="font-normal text-red-500 text-3xl text-center">
-                  60+
-                </h1>
-                <p className="font-normal text-center">
-                  Metropolitan Cities progressed
-                </p>
-              </div>
-              <div className="achievement shadow-md p-4 inline-block">
-                <h1 className="font-normal text-red-500 text-3xl text-center">
-                  100+
-                </h1>
-                <p className="font-normal text-center">Effects</p>
-              </div>
-              <div className="achievement shadow-md p-4 inline-block">
-                <h1 className="font-normal text-red-500 text-3xl text-center">
-                  3
-                </h1>
-                <p className="font-normal text-center">
-                  Collaborations of European Origin
-                </p>
-              </div>
-              <div className="achievement shadow-md p-4 inline-block">
-                <h1 className="font-normal text-red-500 text-3xl text-center">
-                  0
-                </h1>
-                <p className="font-normal text-center">VOC</p>
+              <div className="ach-cont-2">
+                <div className="achievement">
+                  <h3>60+</h3>
+                  <p>Metropolitan Cities Presence</p>
+                </div>
+                <div className="achievement">
+                  <h3>100+</h3>
+                  <p>Effects</p>
+                </div>
+                <div className="achievement">
+                  <h3>3</h3>
+                  <p>Collaborations of European Origin</p>
+                </div>
+                <div className="achievement">
+                  <h3>0</h3>
+                  <p>VOC</p>
+                </div>
               </div>
             </div>
           </div>
           <div className="References flex flex-col justify-start">
-            <h1 className="text-3xl font-bolder mx-6">References</h1>
+            <h1 className="ach-head">References</h1>
             <div className="grid grid-cols-3">
               <span className="m-2 p-2">
                 <span className="block w-20 h-20 items-center mx-auto my-4flex flex-col">

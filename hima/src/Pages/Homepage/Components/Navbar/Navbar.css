@@ -13,7 +13,7 @@
   display: flex;
   justify-content: space-between;
   color: white;
-  padding: 0.5rem 0;
+  padding: 0.8rem 0;
 }
 .nav-up-left {
   display: flex;
@@ -24,12 +24,37 @@
 }
 .nav-up-links {
   font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+.nav-up-links:hover {
+  color: #AFB0B0;
+}
+.nav-up-right a img{
+  width: 20px;
 }
 .nav-up-right {
   display: flex;
   align-items: center;
   gap: 0.2rem;
   margin-right: 5rem;
+  width: 8%;
+  justify-content: space-between;
+}
+.nav-up-right img:hover {
+  cursor: pointer;
+  animation: shake 0.5s;
+}
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  50% {
+    transform: translate(-1px, -2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
 }
 .nav-down {
   display: flex;
@@ -39,9 +64,11 @@
 }
 .nav-down-links {
   font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 .home-icon {
-  background-color: red;
+  background-color: #DD2B1C;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -77,9 +104,53 @@
   justify-content: space-between;
 } 
 .active-navs{
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
+.active-navline{
+  border-bottom: 3px solid #ffffff;
+  width: 33%;
+  display: block;
+  transition: all 400ms ease;
+}
+.active-navs > .active-navline{
+  display: block;
+  transition: all 400ms ease;
+  border-bottom: 3px solid #dd2b1c;
+}
+.icos{
+  display: flex;
+  width: 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 50px;
+}
+.nav-down-icos img{
+  border-radius: 50%;
+}
+.nav-icos{
+  margin-right: 18rem;
+}
+.home-line{
+  width: 33%;
+  background-color: #dd2b1c;
+  height: 3px;
+}
+.home-icon{
+  display: flex;
+  flex-direction: column;
+}
+.home-icon img:nth-child(1){
+  margin-top: 1rem;
+}
+.home-icon img:nth-child(2){
+  width: 38px;
+  padding-top: 10px;
 
+}
 @media screen and (max-width: 400px) {
   .header-logo img {
     width: 6rem;

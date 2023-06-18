@@ -3,6 +3,9 @@ import Facebook from "./Assets/fb.svg";
 import Linkedin from "./Assets/ln.svg";
 import Twitter from "./Assets/tw.svg";
 import Instagram from "./Assets/in.svg";
+import Home from "./Assets/home.svg";
+import HomeAc from "./Assets/home-ac.svg";
+import HomeIn from "./Assets/home-in.svg";
 import HimalyanLogo from "./Assets/hima-logo.png";
 import React, { useState } from "react";
 import { Cross as Hamburger } from "hamburger-react";
@@ -32,7 +35,12 @@ export default function Navbar() {
 
   // Define a helper function to determine if a link is active
   const isLinkActive = (path) => {
-    return location.pathname === path ? 'active-navs' : 'nav-down-links';
+    if (path === '/') {
+      return location.pathname === path ? 'active-home' : 'home-icon';
+    }
+    else {
+      return location.pathname === path ? 'active-navs' : 'nav-down-links';
+    }
   };
 
   return (
@@ -96,32 +104,68 @@ export default function Navbar() {
 
             <div className="nav-items">
               <ul>
-                <li>
-                  <div className="icos"></div>
+                <li className="nav-icos">
+                  <div className="icos">
+                    <Link className="nav-down-icos" to="/">
+                      {/* random image from the internet */}
+                      <img
+                        src="https://picsum.photos/20/20"
+                        alt="himalyan-logo"
+                        className="himalyan-logo"
+                      />
+                    </Link>
+                    <Link className="nav-down-icos" to="/">
+                      <img
+                        src="https://picsum.photos/20/20"
+                        alt="himalyan-logo"
+                        className="himalyan-logo"
+                      />
+                    </Link>
+                    <Link className="nav-down-icos" to="/">
+                      <img
+                        src="https://picsum.photos/20/20"
+                        alt="himalyan-logo"
+                        className="himalyan-logo"
+                      />
+                    </Link>
+                    <Link className="nav-down-icos" to="/">
+                      <img
+                        src="https://picsum.photos/20/20"
+                        alt="himalyan-logo"
+                        className="himalyan-logo"
+                      />
+                    </Link>
+                  </div>
                 </li>
                 <li>
-                  <NavLink exact to="/" className="home-icon">
-                    H
+                  <NavLink exact to="/" className="home-icon">  
+                    <img src={Home} alt="home" />
+                    {/* if path===/ then display HomeAc else HomeIn */}
+                    {isLinkActive('/') === 'active-home' ? <img src={HomeAc} alt="home" /> : <img src={HomeIn} alt="home" />}
                   </NavLink>
                 </li>
                 <li>
                   <NavLink className={isLinkActive('/our-history')} to="/our-history">
                     OUR HISTORY
+                    <span className="active-navline"/>
                   </NavLink>
                 </li>
                 <li>
                   <NavLink className={isLinkActive('/projects')} to="/projects">
                     PROJECTS
+                    <span className="active-navline"/>
                   </NavLink>
                 </li>
                 <li>
                   <NavLink className={isLinkActive('/inspiring-design')} to="/inspiring-design">
                     INSPIRING DESIGN
+                    <span className="active-navline"/>
                   </NavLink>
                 </li>
                 <li>
                   <NavLink className={isLinkActive('/contact-us')} to="/contact-us">
                     CONTACT US
+                    <span className="active-navline"/>
                   </NavLink>
                 </li>
               </ul>
