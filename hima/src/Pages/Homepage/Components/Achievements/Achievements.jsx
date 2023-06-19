@@ -71,7 +71,7 @@ class Achievements extends Component {
                     className=" w-full h-full object-cover rounded-full border-2 border-gray-700"
                   />
                 </span>
-                <h1 className="text-center font-bold mt-2">YAMAHA</h1>
+                <h1 className="text-center font-bold mt-2">DLF</h1>
               </span>
               <span className="m-2 p-2">
                 <span className="block w-20 h-20 items-center mx-auto my-4flex flex-col">
@@ -81,7 +81,7 @@ class Achievements extends Component {
                     className=" w-full h-full object-cover rounded-full border-2 border-gray-700"
                   />
                 </span>
-                <h1 className="text-center font-bold mt-2">YAMAHA</h1>
+                <h1 className="text-center font-bold mt-2">INOX</h1>
               </span>
             </div>
           </div>

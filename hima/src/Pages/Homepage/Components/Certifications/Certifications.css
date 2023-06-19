@@ -5,5 +5,10 @@
 
 }
 #certifications-body{
-    width: 90% !important;
+    width: 87% !important;
+}
+.certi-head{
+    color: #818281;
+    font-size: 35px;
+    font-weight: 700;
 }

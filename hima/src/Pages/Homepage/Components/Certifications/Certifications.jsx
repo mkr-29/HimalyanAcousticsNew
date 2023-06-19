@@ -7,7 +7,7 @@ class Certifications extends Component {
     return (
       <div className="certifications">
         <div id="certifications-body" className="container my-10">
-          <h1 className="text-3xl font-bolder mx-6">Certifications</h1>
+          <h1 className="certi-head">Certifications</h1>
           <div className="card-container grid md:grid-cols-2 xl:grid-cols-4 gap-10 mx-6">
             <div className="container shadow-lg p-10 my-5">
               <span className="block w-20 h-20 items-center mx-auto my-4">
