@@ -8,7 +8,7 @@ class Certifications extends Component {
       <div className="certifications">
         <div id="certifications-body" className="container my-10">
           <h1 className="certi-head">Certifications</h1>
-          <div className="card-container grid md:grid-cols-2 xl:grid-cols-4 gap-10 mx-6">
+          <div className="card-container grid md:grid-cols-2 xl:grid-cols-4 gap-10">
             <div className="container shadow-lg p-10 my-5">
               <span className="block w-20 h-20 items-center mx-auto my-4">
                 <img
@@ -17,7 +17,7 @@ class Certifications extends Component {
                   className=" w-full h-full object-cover rounded-full"
                 />
               </span>
-              <h2 className="text-2xl uppercase text-center">GRIHA</h2>
+              <h2 className="certi-name">GRIHA</h2>
               <p className="text-center">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio
                 exercitationem id laboriosam adipisci cumque nisi molestiae
@@ -33,7 +33,7 @@ class Certifications extends Component {
                   className=" w-full h-full object-cover rounded-full"
                 />
               </span>
-              <h2 className="text-2xl uppercase text-center">ISO</h2>
+              <h2 className="certi-name">ISO</h2>
               <p className="text-center">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio
                 exercitationem id laboriosam adipisci cumque nisi molestiae
@@ -49,7 +49,7 @@ class Certifications extends Component {
                   className=" w-full h-full object-cover rounded-full"
                 />
               </span>
-              <h2 className="text-2xl uppercase text-center">ANTIBACTERIAL</h2>
+              <h2 className="certi-name">ANTIBACTERIAL</h2>
               <p className="text-center">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio
                 exercitationem id laboriosam adipisci cumque nisi molestiae
@@ -65,7 +65,7 @@ class Certifications extends Component {
                   className=" w-full h-full object-cover rounded-full"
                 />
               </span>
-              <h2 className="text-2xl uppercase text-center">ISO</h2>
+              <h2 className="certi-name">ISO</h2>
               <p className="text-center">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio
                 exercitationem id laboriosam adipisci cumque nisi molestiae
