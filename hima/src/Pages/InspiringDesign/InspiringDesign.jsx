@@ -8,34 +8,31 @@ export default function InspiringDesign() {
     <div>
       <Navbar />
       <div className="inspiring-design">
-        <div className="flex flex-col w-1/2 ml-24">
-          <h1 className="text-7xl mt-20 mb-12">
+        <div className="flex flex-col w-1/2 ml-24 pt-14 pr-20">
+          <h1 className="inspd-head">
             Acoustic
             <br />
             <span className="font-bold">Meet Design</span>
           </h1>
-          <p>
+          <p className="text-justify pt-10">
             In years past, acoustic treatments were all about form and function.
             But new materials are changing the way the wall and ceiling industry
             can use acoustic treatments as part of the aesthetics of a space,
             and the sky is the limit.
-          </p>
           <br />
-          <p>
+          <br />
             Acoustical treatment solutions are no exception, and play an
             important role in the redesign of workspaces, schools, healthcare
             facilities, hospitality venues, and so on. Now acoustic products are
             getting the attention they deserve and are no longer an
             afterthought, acoustical treatments are just as important as décor
             and aesthetics & décor while controlling sound.
-          </p>
           <br />
-          <p>
+          <br />
             Acoustical products are moving beyond functionality and are being
             used as art, advertising images and decoration.
-          </p>
           <br />
-          <p>
+          <br />
             Our new ranges of products are an amalgamation of Acoustics + Design
             delivering high performance and yet a design option to be
             incorporated in a space, making our solution easier for the A&D
@@ -43,104 +40,54 @@ export default function InspiringDesign() {
           </p>
         </div>
       </div>
-      <div className="ins-design-below flex flex-wrap bg-black px-24 py-20 justify-between gap-10">
-        <div className="flex flex-col text-white">
-          <span className="text-4xl mb-4">#perform</span>
-          <img src="https://source.unsplash.com/random/600x400" alt="perform" />
-          <span>Rohmd</span>
+      <div className="designs">
+        <div className="des-1">
+          <h2>#1 NRC</h2>
+          <img src="https://picsum.photos/500/500" alt="" />
         </div>
-        <div className="flex flex-col text-white">
-          <span className="text-4xl mb-4">#wood</span>
-          <img src="https://source.unsplash.com/random/600x400" alt="perform" />
-          <span>Rohmd</span>
+        <div className="des-1">
+          <h2>#seamless chroma wall</h2>
+          <img src="https://picsum.photos/500/500" alt="" />
         </div>
-        <div className="flex flex-col text-white">
-          <span className="text-4xl mb-4">#cloud&baffles</span>
-          <img src="https://source.unsplash.com/random/600x400" alt="perform" />
-          <span>Rohmd</span>
+        <div className="des-1">
+          <h2>#plan system</h2>
+          <img src="https://picsum.photos/500/500" alt="" />
         </div>
-        <div className="flex flex-col text-white">
-          <span className="text-4xl mb-4">#fabric</span>
-          <img src="https://source.unsplash.com/random/600x400" alt="perform" />
-          <span>Rohmd</span>
+        <div className="des-1">
+          <h2>#exposed system</h2>
+          <img src="https://picsum.photos/500/500" alt="" />
         </div>
-        <div className="flex flex-col text-white">
-          <span className="text-4xl mb-4">#silent</span>
-          <img src="https://source.unsplash.com/random/600x400" alt="perform" />
-          <span>Rohmd</span>
+        <div className="des-1">
+          <h2>#creative</h2>
+          <img src="https://picsum.photos/500/500" alt="" />
         </div>
-        <div className="flex flex-col text-white">
-          <span className="text-4xl mb-4">#expose</span>
-          <img src="https://source.unsplash.com/random/600x400" alt="perform" />
-          <span>Rohmd</span>
+        <div className="des-1">
+          <h2>#wood</h2>
+          <img src="https://picsum.photos/500/500" alt="" />
         </div>
-      </div>
-      <div className="bg-black flex gap-8 justify-between flex-wrap px-24 py-20 text-white">
-        <div className="flex flex-col w-1/4 justify-center items-center">
-          <img
-            className="w-1/2"
-            src="https://source.unsplash.com/random/200x200"
-            alt="perform"
-          />
-          <div>
-            <span>HA Acoustic Drywall Partition & Door System </span>
-            <span>PDF</span>
-          </div>
+        <div className="des-1">
+          <h2>#float</h2>
+          <img src="https://picsum.photos/500/500" alt="" />
         </div>
-        <div className="flex flex-col w-1/4 justify-center items-center">
-          <img
-            className="w-1/2"
-            src="https://source.unsplash.com/random/200x200"
-            alt="perform"
-          />
-          <div>
-            <span>HA Acoustic Drywall Partition & Door System </span>
-            <span>PDF</span>
-          </div>
+        <div className="des-1">
+          <h2>#clouds & shape</h2>
+          <img src="https://picsum.photos/500/500" alt="" />
         </div>
-        <div className="flex flex-col w-1/4 justify-center items-center">
-          <img
-            className="w-1/2"
-            src="https://source.unsplash.com/random/200x200"
-            alt="perform"
-          />
-          <div>
-            <span>HA Acoustic Drywall Partition & Door System </span>
-            <span>PDF</span>
-          </div>
+        <div className="des-1">
+          <h2>#baffles & cells</h2>
+          <img src="https://picsum.photos/500/500" alt="" />
         </div>
-        <div className="flex flex-col w-1/4 justify-center items-center">
-          <img
-            className="w-1/2"
-            src="https://source.unsplash.com/random/200x200"
-            alt="perform"
-          />
-          <div>
-            <span>HA Acoustic Drywall Partition & Door System </span>
-            <span>PDF</span>
-          </div>
+        <div className="des-1">
+          <h2>#fabric</h2>
+          <img src="https://picsum.photos/500/500" alt="" />
         </div>
-        <div className="flex flex-col w-1/4 justify-center items-center">
-          <img
-            className="w-1/2"
-            src="https://source.unsplash.com/random/200x200"
-            alt="perform"
-          />
-          <div>
-            <span>HA Acoustic Drywall Partition & Door System </span>
-            <span>PDF</span>
-          </div>
+        <div className="des-1">
+          <h2>#sound barrier (Co2 absorbent)</h2>
+          <img src="https://picsum.photos/500/500" alt="" />
         </div>
-        <div className="flex flex-col w-1/4 justify-center items-center">
-          <img
-            className="w-1/2"
-            src="https://source.unsplash.com/random/200x200"
-            alt="perform"
-          />
-          <div>
-            <span>HA Acoustic Drywall Partition & Door System </span>
-            <span>PDF</span>
-          </div>
+        <div className="des-1 des-2">
+          <h2>#silent (acoustic drywall partion & door)</h2>
+          <img src="https://picsum.photos/500/500" alt="" />
         </div>
       </div>
       <Footer />

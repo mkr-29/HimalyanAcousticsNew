@@ -1,0 +1,18 @@
+/* .slick-track{
+    display: flex;
+    gap: 3rem;
+} */
+.slick-slide img {
+    display: block;
+    padding: 1.3rem;
+}
+.slick-prev, .slick-next{
+    width: 60px !important;
+    height: 60px !important;
+}
+.slick-prev {
+    left: -70px !important;
+}
+.slick-next {
+    right: -70px !important;
+}

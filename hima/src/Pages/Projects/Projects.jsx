@@ -1,9 +1,12 @@
 import React from "react";
 import Navbar from "../Homepage/Components/Navbar/Navbar";
 import "./Projects.css";
-import Carousel1 from "./CarouselCard/Carousel1";
+import Carousel1 from "./Carousel/Carousel1";
+import Image1 from "./Carousel/Assets/img1.jpg";
+import Footer from "../Homepage/Components/Footer/Footer";
 
 export default function Projects() {
+    const images1=[Image1,Image1,Image1,Image1]
   return (
     <div>
       <Navbar />
@@ -41,8 +44,68 @@ export default function Projects() {
         </p>
       </div>
       <div className="projs-cars">
-        <Carousel1/>
+        <div className="proj-1">
+          <h2>#government projects</h2>
+          <Carousel1
+            images={images1}
+          />
+        </div>
+        <div className="proj-1">
+          <h2>#auditorium & lecture hall</h2>
+          <Carousel1
+            images={images1}
+          />
+        </div>
+        <div className="proj-1">
+          <h2>#convention & multipurpose hall</h2>
+          <Carousel1
+            images={images1}
+          />
+        </div>
+        <div className="proj-1">
+          <h2>#corporate office</h2>
+          <Carousel1
+            images={images1}
+          />
+        </div>
+        <div className="proj-1">
+          <h2>#education</h2>
+          <Carousel1
+            images={images1}
+          />
+        </div>
+        <div className="proj-1">
+          <h2>#commercial & home cinemas</h2>
+          <Carousel1
+            images={images1}
+          />
+        </div>
+        <div className="proj-1">
+          <h2>#studio</h2>
+          <Carousel1
+            images={images1}
+          />
+        </div>
+        <div className="proj-1">
+          <h2>#worship place</h2>
+          <Carousel1
+            images={images1}
+          />
+        </div>
+        <div className="proj-1">
+          <h2>#sports complex (stadium, gym, swimming area and shooting range)</h2>
+          <Carousel1
+            images={images1}
+          />
+        </div>
+        <div className="proj-1">
+          <h2>#healthcare</h2>
+          <Carousel1
+            images={images1}
+          />
+        </div>
       </div>
+      <Footer/>
     </div>
   );
 }

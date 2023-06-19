@@ -9,18 +9,31 @@
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
-    padding: 3rem 44rem 0rem 8rem;
+    padding: 3rem 48rem 0rem 6rem;
     gap: 2rem;
 }
 .projs-head{
     font-size: 80px;
     line-height: 80px;
     font-weight: 800;
+    color: white;
 }
 .projs-landing p{
     font-size: 14px;
     color: white;
+    text-align: justify;
 }
 .projs-cars{
-    
+    background-color: #000;
+    padding: 0 8rem;
+    padding-top: 2rem;
+}
+.proj-1 h2{
+    color: #afb0b0;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 15px;
+}
+.proj-1{
+    margin-top: 1rem;
 }

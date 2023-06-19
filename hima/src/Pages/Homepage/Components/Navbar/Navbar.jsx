@@ -43,13 +43,16 @@ export default function Navbar() {
     }
   };
 
+  const isUpLinkActive = (path) => {
+    return location.pathname === path ? 'active-up-navs' : 'nav-up-links';
+  };
   return (
     <div className="navbar">
       <div className="nav-up">
         <div className="nav-up-left">
-          <Link className="nav-up-links" to="/">
+          <NavLink className={isUpLinkActive('./sustainability')} to="/sustainability">
             SUSTAINABILITY
-          </Link>
+          </NavLink>
           <Link className="nav-up-links" to="/">
             PARTNER WITH US
           </Link>

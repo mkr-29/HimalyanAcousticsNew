@@ -6,6 +6,7 @@
   width: 100%;
   top: 0;
   background-color: white;
+  z-index: 50;
 }
 .nav-up {
   width: 100%;
@@ -150,6 +151,12 @@
   width: 38px;
   padding-top: 10px;
 
+}
+.nav-up-links.active{
+  color: #dd2b1b;
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 @media screen and (max-width: 400px) {
   .header-logo img {

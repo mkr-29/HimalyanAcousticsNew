@@ -7,3 +7,30 @@
     height: 100vh;
     color: white;
 }
+.inspd-head{
+    font-size: 5rem;
+    line-height: 5rem;
+}
+.designs{
+    display: flex;
+    padding: 0 8rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #000;
+    padding-top: 5rem;
+    gap: 2rem;
+    padding-bottom: 5rem;
+}
+.des-1 h2{
+    color: #afb0b0;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 50px;
+}
+.des-1 img{
+    width: 37rem;
+    height: 22rem;
+}
+.des-2 h2{
+    font-size: 27px;
+}
