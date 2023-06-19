@@ -13,17 +13,20 @@
 }
 .about-head{
     font-size: 50px;
-    color: #dd2b1c;
+    color: #E23424;
     line-height: 4rem;
     margin-bottom: 1rem;
     font-weight: 700;
     line-height: 50px;
+    font-family: TelegrafBold;
 }
 .about-desc{
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .about-desc a{
-    color:red;
+    color:#E23424;
+    font-family: TelegrafBold;
 }
 .about-desc span{
     font-weight: 700;
@@ -33,10 +36,12 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 40px;
+    font-family: TelegrafBold;
 }
 .about-sub-head span{
     font-weight: 400;
-    font-size: 35px;
+    font-size: 40px;
+    font-family: TelegrafRegular;
 }
 .div-3{
     display: flex;

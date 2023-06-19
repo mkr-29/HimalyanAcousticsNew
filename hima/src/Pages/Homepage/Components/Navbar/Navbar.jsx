@@ -1,15 +1,19 @@
 import "./Navbar.css";
-import Facebook from "./Assets/fb.svg";
-import Linkedin from "./Assets/ln.svg";
-import Twitter from "./Assets/tw.svg";
-import Instagram from "./Assets/in.svg";
-import Home from "./Assets/home.svg";
+import Facebook from "./Assets/fb.png";
+import Linkedin from "./Assets/ln.png";
+import Whatsapp from "./Assets/wa.png";
+import Instagram from "./Assets/in.png";
+import Home from "./Assets/home.png";
 import HomeAc from "./Assets/home-ac.svg";
 import HomeIn from "./Assets/home-in.svg";
 import HimalyanLogo from "./Assets/hima-logo.png";
 import React, { useState } from "react";
 import { Cross as Hamburger } from "hamburger-react";
 import { Link, NavLink, useLocation } from "react-router-dom";
+import Icon1 from "./Assets/logo1.png";
+import Icon2 from "./Assets/logo2.png";
+import Icon3 from "./Assets/logo3.png";
+import Icon4 from "./Assets/logo4.png";
 
 export default function Navbar() {
   const [header, setHeader] = useState(false);
@@ -71,13 +75,13 @@ export default function Navbar() {
             <img src={Facebook} alt="fb" />
           </Link>
           <Link className="nav-up-links" to="/">
+            <img src={Instagram} alt="in" />
+          </Link>
+          <Link className="nav-up-links" to="/">
             <img src={Linkedin} alt="ln" />
           </Link>
           <Link className="nav-up-links" to="/">
-            <img src={Twitter} alt="tw" />
-          </Link>
-          <Link className="nav-up-links" to="/">
-            <img src={Instagram} alt="in" />
+            <img src={Whatsapp} alt="tw" />
           </Link>
         </div>
       </div>
@@ -112,28 +116,28 @@ export default function Navbar() {
                     <Link className="nav-down-icos" to="/">
                       {/* random image from the internet */}
                       <img
-                        src="https://picsum.photos/20/20"
+                        src={Icon1}
+                        alt="himalyan-logo"
+                        className="himalyan-logo"
+                        />
+                    </Link>
+                    <Link className="nav-down-icos" to="/">
+                      <img
+                        src={Icon2}
                         alt="himalyan-logo"
                         className="himalyan-logo"
                       />
                     </Link>
                     <Link className="nav-down-icos" to="/">
                       <img
-                        src="https://picsum.photos/20/20"
+                        src={Icon3}
                         alt="himalyan-logo"
                         className="himalyan-logo"
                       />
                     </Link>
                     <Link className="nav-down-icos" to="/">
                       <img
-                        src="https://picsum.photos/20/20"
-                        alt="himalyan-logo"
-                        className="himalyan-logo"
-                      />
-                    </Link>
-                    <Link className="nav-down-icos" to="/">
-                      <img
-                        src="https://picsum.photos/20/20"
+                        src={Icon4}
                         alt="himalyan-logo"
                         className="himalyan-logo"
                       />

@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: TelegrafRegular;
+  src: url(./Fonts/PPTelegraf-Regular.otf);
+}
+@font-face {
+  font-family: TelegrafBold;
+  src: url(./Fonts/PPTelegraf-UltraBold.otf);
+}
+@font-face {
+  font-family: TelegrafLight;
+  src: url(./Fonts/PPTelegraf-UltraLight.otf);
+}
 body {
   margin: 0;
   padding: 0;

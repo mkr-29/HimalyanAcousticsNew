@@ -25,8 +25,8 @@ export default function About() {
             <br />
             <br />
             ents are just as important as décor and aesthetics & décor while
-            controlling sound.
-            <Link to="/">Read More...</Link>
+            controlling sound. 
+            <Link to="/"> Read More...</Link>
           </span>
         </div>
         <div className="div-2">
@@ -52,6 +52,17 @@ export default function About() {
             <br />
             based solutions
           </h1>
+          <div>
+            <div className="flex flex-col justify-centre">
+              <span>ONE OF</span>
+              <span>INDIA's</span>
+              <span>CO<sub>2</sub></span>
+              <span>absorbant</span>
+              <span>SOUND</span>
+              <span>BARRIER</span>
+              <span>system</span>
+            </div>
+          </div>
         </div>
         
       </div>
