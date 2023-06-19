@@ -1,0 +1,26 @@
+.projs-landing{
+    margin-top: 8.7rem;
+    height: 81.5vh;
+    /* random background image from the internet */
+    background-image: url("https://picsum.photos/1800/1100");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 44rem 0rem 8rem;
+    gap: 2rem;
+}
+.projs-head{
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 800;
+}
+.projs-landing p{
+    font-size: 14px;
+    color: white;
+}
+.projs-cars{
+    
+}
