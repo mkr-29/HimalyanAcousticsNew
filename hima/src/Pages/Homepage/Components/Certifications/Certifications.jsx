@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import "./Certifications.css";
 import Random from "../../Assets/random.jpg";
+import Antibacterial from "./Assets/antibacterial.png";
+import Griha from "./Assets/griha.png";
+import Iso from "./Assets/iso.png";
 
 class Certifications extends Component {
   render() {
@@ -12,8 +15,8 @@ class Certifications extends Component {
             <div className="container shadow-lg p-10 my-5">
               <span className="block w-20 h-20 items-center mx-auto my-4">
                 <img
-                  src={Random}
-                  alt="Random"
+                  src={Griha}
+                  alt="Griha"
                   className=" w-full h-full object-cover rounded-full"
                 />
               </span>
@@ -28,8 +31,8 @@ class Certifications extends Component {
             <div className="container shadow-lg p-10 my-5">
               <span className="block w-20 h-20 items-center mx-auto my-4">
                 <img
-                  src={Random}
-                  alt="Random"
+                  src={Iso}
+                  alt="Iso"
                   className=" w-full h-full object-cover rounded-full"
                 />
               </span>
@@ -44,8 +47,8 @@ class Certifications extends Component {
             <div className="container shadow-lg p-10 my-5">
               <span className="block w-20 h-20 items-center mx-auto my-4">
                 <img
-                  src={Random}
-                  alt="Random"
+                  src={Antibacterial}
+                  alt="Antibacterial"
                   className=" w-full h-full object-cover rounded-full"
                 />
               </span>
@@ -60,8 +63,8 @@ class Certifications extends Component {
             <div className="container shadow-lg p-10 my-5">
               <span className="block w-20 h-20 items-center mx-auto my-4">
                 <img
-                  src={Random}
-                  alt="Random"
+                  src={Iso}
+                  alt="Iso"
                   className=" w-full h-full object-cover rounded-full"
                 />
               </span>

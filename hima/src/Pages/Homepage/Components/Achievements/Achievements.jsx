@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import "./Achievements.css";
-import Random from "../../Assets/random.jpg";
+import Yamaha from "./Assets/yamaha.png";
+import Dlf from "./Assets/dlf.png";
+import Inox from "./Assets/inox.png";
 
 class Achievements extends Component {
   render() {
     return (
       <div className="achievements">
-        <div className="achievements-body container grid lg:grid-cols-2 grid-cols-1 my-10 px-6 gap-4">
+        <div className="achievements-body container grid lg:grid-cols-2 grid-cols-1 my-10 px-6 gap-24">
           <div className="achievements-container">
             <h1 className="ach-head">Achievements</h1>
             <div className="achievement-container">
@@ -54,34 +56,34 @@ class Achievements extends Component {
             <h1 className="ach-head">References</h1>
             <div className="grid grid-cols-3">
               <span className="m-2 p-2">
-                <span className="block w-20 h-20 items-center mx-auto my-4flex flex-col">
+                <span className="reflogos block items-center mx-auto my-4flex flex-col">
                   <img
-                    src={Random}
+                    src={Yamaha}
                     alt="Random"
-                    className=" w-full h-full object-cover rounded-full border-2 border-gray-700"
+                    className="refimg"
                   />
                 </span>
-                <h1 className="text-center font-bold mt-2">YAMAHA</h1>
+                <h1 className="text-center text-xs font-bold mt-2">YAMAHA</h1>
               </span>
               <span className="m-2 p-2">
-                <span className="block w-20 h-20 items-center mx-auto my-4flex flex-col">
+                <span className="reflogos block items-center mx-auto my-4flex flex-col">
                   <img
-                    src={Random}
+                    src={Dlf}
                     alt="Random"
-                    className=" w-full h-full object-cover rounded-full border-2 border-gray-700"
+                    className="refimg"
                   />
                 </span>
-                <h1 className="text-center font-bold mt-2">DLF</h1>
+                <h1 className="text-center text-xs font-bold mt-2">DLF</h1>
               </span>
               <span className="m-2 p-2">
-                <span className="block w-20 h-20 items-center mx-auto my-4flex flex-col">
+                <span className="reflogos block items-center mx-auto my-4flex flex-col">
                   <img
-                    src={Random}
+                    src={Inox}
                     alt="Random"
-                    className=" w-full h-full object-cover rounded-full border-2 border-gray-700"
+                    className="refimg"
                   />
                 </span>
-                <h1 className="text-center font-bold mt-2">INOX</h1>
+                <h1 className="text-center text-xs font-bold mt-2">INOX</h1>
               </span>
             </div>
           </div>

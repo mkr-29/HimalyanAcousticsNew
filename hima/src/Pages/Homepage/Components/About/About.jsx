@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import { Link } from "react-router-dom";
+import Asset1 from "./Assets/asset1.png";
 
 export default function About() {
   return (
@@ -25,7 +26,7 @@ export default function About() {
             <br />
             <br />
             ents are just as important as décor and aesthetics & décor while
-            controlling sound. 
+            controlling sound.
             <Link to="/"> Read More...</Link>
           </span>
         </div>
@@ -45,26 +46,81 @@ export default function About() {
           </span>
         </div>
       </div>
-      <div className="about-left">
+      <div className="about-left about-right">
         <div className="div-1">
-          <h1 className="about-head">
+          <h1 className="about-head mb-10">
             performance
             <br />
             based solutions
           </h1>
-          <div>
-            <div className="flex flex-col justify-centre">
-              <span>ONE OF</span>
-              <span>INDIA's</span>
-              <span>CO<sub>2</sub></span>
-              <span>absorbant</span>
-              <span>SOUND</span>
-              <span>BARRIER</span>
-              <span>system</span>
+          <div className="flex gap-5">
+            <div className="banner flex flex-col justify-centre w-1/5 justify-center items-center">
+              <img src={Asset1} alt="" />
+              <div className="banner-in flex flex-col items-center text-white">
+                <span className="text-xl leading-5">ONE OF</span>
+                <span className="text-lg leading-5">INDIA'S</span>
+                <span className="text-black text-4xl leading-9">
+                  CO<sub className="text-sm">2</sub>
+                </span>
+                <span className="text-black text-sm leading-4">absorbant</span>
+                <span className="text-2xl leading-5">SOUND</span>
+                <span className="leading-4">BARRIER</span>
+                <span className="leading-5">system</span>
+              </div>
+            </div>
+            <div className="banner flex flex-col justify-centre w-1/5 justify-center items-center">
+              <img src={Asset1} alt="" />
+              <div className="banner-in1 flex flex-col items-center text-white">
+                <span className="text-lg leading-4 text-black">excellent</span>
+                <span className="leading-5 text-black">acoustic</span>
+                <span className="text-black leading-4">
+                  performance
+                </span>
+                <span className="text-black text-xl leading-4">with our</span>
+                <span className="text-4xl leading-8">1 NRC</span>
+                <span className="leading-3">LAB-CERTIFIED</span>
+                <span className="leading-10">panel</span>
+              </div>
+            </div>
+            <div className="banner flex flex-col justify-centre w-1/5 justify-center items-center">
+              <img src={Asset1} alt="" />
+              <div className="banner-in2 flex flex-col items-center text-white">
+                <span className="text-xs leading-4 text-black">get the best of</span>
+                <span className="leading-4">ACOUSTIC</span>
+                <span className="leading-4">
+                  PERFORMANCE
+                </span>
+                <span className="text-black text-2xl leading-5">with our</span>
+                <span className="text-2xl leading-4">SILENT</span>
+                <span className="leading-4">ACOUSTIC DRYWALL</span>
+                <span className="leading-4">Partition</span>
+                <span className="leading-4 text-black text-lg">range with</span>
+                <span className="leading-4">UPTO 65 STC</span>
+              </div>
+            </div>
+            <div className="banner flex flex-col justify-centre w-1/5 justify-center items-center">
+              <img src={Asset1} alt="" />
+              <div className="banner-in3 flex flex-col items-center text-white">
+                <span className="text-lg leading-4 text-black">featuring</span>
+                <span className="leading-5 text-sm text-black">remarkably</span>
+                <span className="leading-3">
+                  SUSTAINABLE &
+                </span>
+                <span className="leading-3">
+                  GREEN CERTIFIED
+                </span>
+                <span className="leading-3">CEMENT FIBRES</span>
+                <span className="leading-5 text-black">one of the</span>
+                <span className="leading-5 text-black">1ST IN INDIA</span>
+                <span className="leading-5">APHONY</span>
+                <span className="leading-5">FIBRETTE</span>
+              </div>
             </div>
           </div>
         </div>
-        
+        <div className="div-2 mt-8">
+          <h3 className="p-3 text-center text-white text-3xl mt-6">featured projects</h3>
+        </div>
       </div>
     </div>
   );

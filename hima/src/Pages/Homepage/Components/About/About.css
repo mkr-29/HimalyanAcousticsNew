@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 6rem;
+    gap: 3rem;
     margin-top: 3rem;
 }
 .about-left{
@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     gap: 3rem;
+    margin-left: 4rem;
 }
 .about-head{
     font-size: 50px;
@@ -61,4 +62,103 @@
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+}
+.banner{
+    position: relative;
+    /* background: url(./Assets/asset1.png); */
+}
+.banner-in{
+    position: absolute;
+    font-family: TelegrafRegular;
+    top: 2rem;
+}
+.banner-in span:nth-child(2),
+.banner-in span:nth-child(5),
+.banner-in span:nth-child(6){
+    font-family: TelegrafBold;
+}
+.banner-in span:nth-child(7){
+    font-size: 26px;
+}
+.banner-in span:nth-child(6){
+    font-size: 19px;
+}
+.banner-in1, .banner-in2, .banner-in3{
+    position: absolute;
+    font-family: TelegrafRegular;
+    top: 2rem;
+}
+.banner-in1 span:nth-child(2){
+    font-size: 19px;
+}
+.banner-in1 span:nth-child(3),
+.banner-in1 span:nth-child(6){
+    font-size: 13px;
+}
+.banner-in1 span:nth-child(5),
+.banner-in2 span:nth-child(5),
+.banner-in2 span:nth-child(2){
+    font-family: TelegrafBold;
+}
+.banner-in2 span:nth-child(2){
+    font-size: 17px;
+}
+.banner-in1 span:nth-child(7){
+    font-size: 44px;
+    font-family: TelegrafLight;
+}
+.banner-in2 span:nth-child(3){
+    font-size: 12.5px;
+}
+.banner-in2 span:nth-child(6){
+    font-size: 9px;
+}
+.banner-in2 span:nth-child(7){
+    font-family: TelegrafBold;
+    font-size: 21px;
+}
+.banner-in2 span:nth-child(9){
+    font-size: 14.5px;
+}
+.banner-in3 span:nth-child(4){
+    font-size: 10.5px;
+}
+.banner-in3 span:nth-child(6){
+    font-size: 22px;
+}
+.banner-in3 span:nth-child(3){ 
+    font-size: 12.8px;
+}
+.banner-in3 span:nth-child(5){
+    font-size: 12.5px;
+}
+.banner-in3 span:nth-child(4){
+    font-size: 11px;
+}
+.banner-in3 span:nth-child(7),
+.banner-in3 span:nth-child(8),
+.banner-in3 span:nth-child(9){
+    font-family: TelegrafBold;
+}
+.banner-in3 span:nth-child(7){
+    font-size: 14.5px;
+}
+.banner-in3 span:nth-child(8){
+    font-size: 22.5px;
+}
+.banner-in3 span:nth-child(9){
+    font-size: 19.5px;
+}
+.div-2 h3{
+    background-color: #CC3300;
+    font-family: TelegrafBold;
+}
+.div-2{
+    width: 90%;
+}
+.div-2 h4{
+    color: #808080;
+}
+.about-right{
+    width: 45%;
 }
