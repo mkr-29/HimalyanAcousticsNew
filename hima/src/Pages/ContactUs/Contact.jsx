@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import Navbar from "../Homepage/Components/Navbar/Navbar";
+import Footer from "../Homepage/Components/Footer/Footer";
 
 export default function Contact() {
   return (
@@ -94,7 +95,7 @@ export default function Contact() {
           </button>
         </form>
       </div>
-      <div className="contact-s3 bg-black text-white flex flex-col items-center px-24">
+      <div className="contact-s3 bg-black text-white flex flex-col items-center px-24 pb-14">
         <h4 className="text-6xl mt-10">
           Office <span className="font-bold">Directory</span>
         </h4>
@@ -106,8 +107,8 @@ export default function Contact() {
           To Reach Us After Normal Business Hours, Including Nights, Weekends, &
           Holidays, Please Contact Dharampur (HP) Head Oce.
         </p>
-        <div className="flex flex-wrap gap-10 font-bold text-xl mt-16 justify-between">
-          <div className="flex flex-col w-1/2 gap-2">
+        <div className="con-cards flex flex-wrap gap-10 font-bold text-xl mt-16 justify-between">
+          <div className="flex flex-col gap-2">
             <h6>DHARAMPUR, HEAD OFFICE, INDIA</h6>
             <hr />
             <p>
@@ -120,7 +121,7 @@ export default function Contact() {
               (Business Queries Only).
             </p>
           </div>
-          <div className="flex flex-col w-1/2 gap-2">
+          <div className="flex flex-col gap-2">
             <h6>DHARAMPUR, HEAD OFFICE, INDIA</h6>
             <hr />
             <p>
@@ -187,6 +188,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

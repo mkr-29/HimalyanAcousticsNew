@@ -36,6 +36,7 @@ export default function Carousel1(parse) {
     prevArrow: <img src={Prev} alt="prev" className="mts-prev-btn" />,
     autoplay: true,
   };
+  
   return (
     <div>
       <Slider {...settings}>
