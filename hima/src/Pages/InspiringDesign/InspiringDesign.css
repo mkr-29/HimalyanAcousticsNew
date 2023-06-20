@@ -1,6 +1,6 @@
 .inspiring-design{
     margin-top: 8.1rem;
-    background-image: url("https://source.unsplash.com/random/1920x1080");
+    background-image: url("./Assets/landing.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,6 +10,10 @@
 .inspd-head{
     font-size: 5rem;
     line-height: 5rem;
+    font-family: TelegrafRegular;
+}
+.inspd-head span{
+    font-family: TelegrafBold;
 }
 .designs{
     display: flex;
