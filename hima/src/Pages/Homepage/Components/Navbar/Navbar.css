@@ -18,7 +18,7 @@
 }
 .nav-up-left {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   width: 40%;
   justify-content: space-around;
   margin-left: 5rem;
@@ -158,7 +158,7 @@
 .nav-up-links.active{
   color: #dd2b1b;
   font-size: 10px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'TelegrafBold', sans-serif;
   font-weight: 600;
 }
 @media screen and (max-width: 400px) {
