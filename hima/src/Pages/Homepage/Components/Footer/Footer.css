@@ -8,7 +8,9 @@
 }
 .link-section h3{
     color: rgb(115, 115, 115);
+    font-family: Arial;
 }
 footer a{
     font-size: 14px;
+    font-family: Arial;
 }

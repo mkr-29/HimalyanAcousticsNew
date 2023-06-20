@@ -3,14 +3,23 @@
     background-color: #000;
 }
 .s1text{
-    color: #96bbd3;
+    color: #fefefe;
 }
 .contact-s2{
     background-color: #000;
 }
 .contact-s2 span{
-    color: #afad99;
+    color: #fefefe;
 }
 .con-cards div{
     width: 48%;
+}
+.contact-s2 span:nth-child(1){
+    color: #b2b3b3;
+}
+.con-cards h6{
+    color: #fefefe;
+}
+.con-cards p{
+    color: #b2b3b3;
 }

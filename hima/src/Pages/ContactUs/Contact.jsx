@@ -107,11 +107,11 @@ export default function Contact() {
           To Reach Us After Normal Business Hours, Including Nights, Weekends, &
           Holidays, Please Contact Dharampur (HP) Head Oce.
         </p>
-        <div className="con-cards flex flex-wrap gap-10 font-bold text-xl mt-16 justify-between">
+        <div className="con-cards flex flex-wrap gap-10 text-xl mt-16 justify-between">
           <div className="flex flex-col gap-2">
             <h6>DHARAMPUR, HEAD OFFICE, INDIA</h6>
             <hr />
-            <p>
+            <p className="font-bold">
               To Speak with a Himalya
               <br />
               Acoustics Representative,
@@ -122,9 +122,9 @@ export default function Contact() {
             </p>
           </div>
           <div className="flex flex-col gap-2">
-            <h6>DHARAMPUR, HEAD OFFICE, INDIA</h6>
+            <h6 className="font-bold">GOVERNMENT PROJECT, PAN INDIA</h6>
             <hr />
-            <p>
+            <p className="font-bold">
               To Speak with a Himalya
               <br />
               Acoustics Representative,
@@ -135,9 +135,9 @@ export default function Contact() {
             </p>
           </div>
           <div>
-            <h6>DHARAMPUR, HEAD OFFICE, INDIA</h6>
+            <h6>MUMBAI (WEST INDIA)</h6>
             <hr />
-            <p>
+            <p className="font-bold">
               To Speak with a Himalya
               <br />
               Acoustics Representative,
@@ -148,9 +148,9 @@ export default function Contact() {
             </p>
           </div>
           <div>
-            <h6>DHARAMPUR, HEAD OFFICE, INDIA</h6>
+            <h6>BENGALURU  (SOUTH INDIA)</h6>
             <hr />
-            <p>
+            <p className="font-bold">
               To Speak with a Himalya
               <br />
               Acoustics Representative,
@@ -161,9 +161,9 @@ export default function Contact() {
             </p>
           </div>
           <div>
-            <h6>DHARAMPUR, HEAD OFFICE, INDIA</h6>
+            <h6>DELHI (NORTH INDIA)</h6>
             <hr />
-            <p>
+            <p className="font-bold">
               To Speak with a Himalya
               <br />
               Acoustics Representative,
@@ -174,9 +174,9 @@ export default function Contact() {
             </p>
           </div>
           <div>
-            <h6>DHARAMPUR, HEAD OFFICE, INDIA</h6>
+            <h6 className="font-bold">INDORE (CENTRAL INDIA)</h6>
             <hr />
-            <p>
+            <p className="font-bold">
               To Speak with a Himalya
               <br />
               Acoustics Representative,
