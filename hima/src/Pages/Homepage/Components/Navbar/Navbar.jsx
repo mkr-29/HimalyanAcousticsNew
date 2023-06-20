@@ -63,9 +63,9 @@ export default function Navbar() {
           <Link className="nav-up-links" to="/">
             INTERNATIONAL COLLABORATION
           </Link>
-          <Link className="nav-up-links" to="/">
+          <NavLink className={isUpLinkActive('./certification')} to="/certification">
             CERTIFICATION
-          </Link>
+          </NavLink>
           <Link className="nav-up-links" to="/">
             CARRIERS@HA
           </Link>

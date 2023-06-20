@@ -6,6 +6,7 @@ import History from "./Pages/OurHistory/History";
 import Projects from "./Pages/Projects/Projects";
 import Sustainability from "./Pages/Sustainability/Sustainability";
 import Contact from "./Pages/ContactUs/Contact";
+import Certification from "./Pages/Certification/Certification";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="projects" element={<Projects />} />
           <Route path="sustainability" element={<Sustainability />} />
           <Route path="contact-us" element={<Contact />} />
+          <Route path="certification" element={<Certification />} />
       </Routes>
     </BrowserRouter>
   );
