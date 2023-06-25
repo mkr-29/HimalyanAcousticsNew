@@ -138,3 +138,74 @@
 .safetylogos img{
     width: 250px;
 }
+
+@media screen and (max-width:640px) {
+    .sust{
+        flex-wrap: wrap;
+        padding: 2rem 1rem;
+    }
+    .facts{
+        width: 100%;
+        padding: 1rem;
+    }
+    .facts h3 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .facts h2 {
+        font-size: 42px;
+        line-height: 42px;
+        margin-top: 1rem;
+    }
+    .facts ul{
+        margin-left: 0.2rem;
+    }
+    .facts ul li{
+        padding-left: 0;
+        font-size: 14px;
+    }
+    .quotes{
+        width: 100%;
+    }
+    .quote-1{
+        font-size: 16px;
+        padding: 3rem 2rem;
+    }
+    .sabout{
+        padding: 0rem 1rem;
+    }
+    .sabout p{
+        font-size: 12px;
+    }
+    .sabout h3{
+        font-size: 16px;
+    }
+    .ecofp h2{
+        font-size: 28px;
+    }
+    .ecofp{
+        height: 20vh;
+    }
+    .prod-qualities div h4{
+        text-align: center;
+        font-size: 12px;
+    }
+    .prod-qualities div{
+        width: 22%;
+    }
+    .extracts{
+        flex-wrap: wrap;
+    }
+    .extracts img{
+        width: 150px;
+    }
+    .ext-txt{
+        font-size: 14px;
+        padding: 0 1rem;
+        margin-top: 1rem;
+    }
+    .safetylogos img{
+        width: 80px;
+        margin-top: 2rem;
+    }
+}

@@ -20,13 +20,13 @@ export default function InspiringDesign() {
     <div>
       <Navbar />
       <div className="inspiring-design">
-        <div className="flex flex-col w-1/2 ml-24 pt-14 pr-20">
+        <div className="flex flex-col w-full 2xl:w-1/2 2xl:ml-24 pt-14 2xl:pr-20 px-4">
           <h1 className="inspd-head">
             Acoustic
             <br />
             <span className="font-bold">Meet Design</span>
           </h1>
-          <p className="text-justify pt-10">
+          <p className="text-justify 2xl:pt-10 text-sm pt-4">
             In years past, acoustic treatments were all about form and function.
             But new materials are changing the way the wall and ceiling industry
             can use acoustic treatments as part of the aesthetics of a space,

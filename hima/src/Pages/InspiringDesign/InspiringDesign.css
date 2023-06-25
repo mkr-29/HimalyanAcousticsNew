@@ -38,3 +38,23 @@
 .des-2 h2{
     font-size: 27px;
 }
+
+@media screen and (max-width: 640px) {
+    .inspiring-design{
+        margin-top: 6rem;
+    }
+    .inspd-head {
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .designs {
+        padding: 2rem 1rem;
+    }
+    .des-1 img{
+        height: 13rem;
+    }
+    .des-1 h2{
+        font-size: 18px;
+    }
+
+}
