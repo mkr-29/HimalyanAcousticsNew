@@ -31,3 +31,10 @@
 .years-ha div:nth-child(1) span{
     background-color: #727271;
 }
+.meet-team{
+    color: #898989;
+    font-family: TelegrafRegular;
+}
+.meet-team span{
+    font-family: TelegrafBold;
+}

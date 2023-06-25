@@ -105,7 +105,7 @@ export default function History() {
           <TeamCard key={image.id} name={image.title} image={image.image} />
         ))}
       </div>
-      <h2 className="text-5xl font-light text-center">
+      <h2 className="meet-team text-5xl font-light text-center">
         MEET TEAM <span className="font-bold">HIMALAYAN ACOUSTICS</span>
       </h2>
       <div className="history-team grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 px-8 md:px-24 py-16 ">
