@@ -70,12 +70,35 @@
 
 @media screen and (max-width: 640px) {
     .achievement h3{
-        font-size: 20px;
+        font-size: 30px;
     }
     .achievement p{
-        font-size: 8px;
+        font-size: 12px;
     }
     .reflogos img{
-        width: 100px;
+        width: 80px;
+    }
+    .ach-head{
+        font-size: 28px;
+    }
+    .ach-cont-1, .ach-cont-2{
+        flex-wrap: wrap;
+    }
+    .ach-cont-1 .achievement:nth-of-type(2){
+        border-left: none;
+        border-right: none;
+    }
+    .ach-cont-1 .achievement:nth-of-type(2), .ach-cont-1 .achievement:nth-of-type(3){
+        border-right: none;
+    }
+    .ach-cont-2 .achievement{
+        border-bottom: 2px solid #e6e6e6;
+    }
+    .ach-cont-2 .achievement:nth-of-type(2){
+        border-right: none;
+        border-left: none;
+    }
+    .ach-cont-2 .achievement:nth-of-type(2), .ach-cont-2 .achievement:nth-of-type(3){
+        border-right: none;
     }
 }

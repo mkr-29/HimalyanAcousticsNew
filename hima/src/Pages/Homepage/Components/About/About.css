@@ -167,6 +167,29 @@
 @media screen and (max-width: 640px) {
     .about-left{
         margin: 0;
+        width: 90%;
+    }
+    .about-head{
+        font-size: 32px;
+        line-height: 30px;
+    }
+    .about-desc{
+        font-size: 14px;
+    }
+    .about-sub-head{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .about-sub-head span{
+        font-size: 22px;
+    }
+    .div-2{
+        gap: 0.5rem;
+    }
+    .div-2{
         width: 100%;
+    }
+    .about-left{
+        gap: 0;
     }
 }

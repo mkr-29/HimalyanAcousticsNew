@@ -31,7 +31,7 @@ export default function About() {
           </span>
         </div>
         <div className="div-2">
-          <h1 className="about-sub-head">
+          <h1 className="about-sub-head mt-10">
             INDOOR AIR QUALITY
             <br />
             <span>at our best green standards</span>
@@ -53,8 +53,8 @@ export default function About() {
             <br />
             based solutions
           </h1>
-          <div className="flex gap-5">
-            <div className="banner flex flex-col justify-centre w-1/5 justify-center items-center">
+          <div className="flex gap-5 flex-wrap justify-center 2xl:justify-start">
+            <div className="banner flex flex-col justify-centre 2xl:w-1/5 justify-center items-center w-36">
               <img src={Asset1} alt="" />
               <div className="banner-in flex flex-col items-center text-white">
                 <span className="text-xl leading-5">ONE OF</span>
@@ -68,7 +68,7 @@ export default function About() {
                 <span className="leading-5">system</span>
               </div>
             </div>
-            <div className="banner flex flex-col justify-centre w-1/5 justify-center items-center">
+            <div className="banner flex flex-col justify-centre 2xl:w-1/5 justify-center items-center w-36">
               <img src={Asset1} alt="" />
               <div className="banner-in1 flex flex-col items-center text-white">
                 <span className="text-lg leading-4 text-black">excellent</span>
@@ -82,7 +82,7 @@ export default function About() {
                 <span className="leading-10">panel</span>
               </div>
             </div>
-            <div className="banner flex flex-col justify-centre w-1/5 justify-center items-center">
+            <div className="banner flex flex-col justify-centre 2xl:w-1/5 justify-center items-center w-36">
               <img src={Asset1} alt="" />
               <div className="banner-in2 flex flex-col items-center text-white">
                 <span className="text-xs leading-4 text-black">get the best of</span>
@@ -98,7 +98,7 @@ export default function About() {
                 <span className="leading-4">UPTO 65 STC</span>
               </div>
             </div>
-            <div className="banner flex flex-col justify-centre w-1/5 justify-center items-center">
+            <div className="banner flex flex-col justify-centre 2xl:w-1/5 justify-center items-center w-36">
               <img src={Asset1} alt="" />
               <div className="banner-in3 flex flex-col items-center text-white">
                 <span className="text-lg leading-4 text-black">featuring</span>
@@ -119,7 +119,7 @@ export default function About() {
           </div>
         </div>
         <div className="div-2 mt-8">
-          <h3 className="p-3 text-center text-white text-3xl mt-6">featured projects</h3>
+          <h3 className="2xl:p-3 p-1 text-center text-white text-2xl 2xl:text-3xl mt-6">featured projects</h3>
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ class Certifications extends Component {
   render() {
     return (
       <div className="certifications">
-        <div id="certifications-body" className="container my-10">
+        <div id="certifications-body" className="container 2xl:my-10">
           <h1 className="certi-head">Certifications</h1>
           <div className="card-container grid md:grid-cols-2 xl:grid-cols-4 gap-10">
             <div className="container shadow-lg p-10 my-5">

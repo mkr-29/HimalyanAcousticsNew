@@ -52,6 +52,48 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="nav-up">
+        <div class="menu-bar">
+          <ul>
+            <li>
+              <a href="#">QUICK LINKS &#9660;</a>
+              <div class="dropdown-menu">
+                <ul>
+                  <li>
+                    <NavLink
+                      className={isUpLinkActive("./sustainability")}
+                      to="/sustainability"
+                    >
+                      SUSTAINABILITY
+                    </NavLink>
+                  </li>
+                  <li>
+                    <Link className="nav-up-links" to="/">
+                      PARTNER WITH US
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="nav-up-links" to="/">
+                      INTERNATIONAL COLLABORATION
+                    </Link>
+                  </li>
+                  <li>
+                    <NavLink
+                      className={isUpLinkActive("./certification")}
+                      to="/certification"
+                    >
+                      CERTIFICATION
+                    </NavLink>
+                  </li>
+                  <li>
+                    <Link className="nav-up-links" to="/">
+                      CARRIERS@HA
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
         <div className="nav-up-left">
           <NavLink
             className={isUpLinkActive("./sustainability")}
@@ -98,13 +140,48 @@ export default function Navbar() {
             isOpen1 ? "header-wrapper active" : ""
           } `}
         >
-          <NavLink to="/" className="header-logo">
-            <img
-              src={HimalyanLogo}
-              alt="himalyan-logo"
-              className="himalyan-logo"
-            />
-          </NavLink>
+          <div className="nav-lg">
+            <NavLink to="/" className="header-logo">
+              <img
+                src={HimalyanLogo}
+                alt="himalyan-logo"
+                className="himalyan-logo"
+              />
+            </NavLink>
+            <li className="nav-icos">
+              <div className="icos">
+                <Link className="nav-down-icos" to="/">
+                  {/* random image from the internet */}
+                  <img
+                    src={Icon1}
+                    alt="himalyan-logo"
+                    className="himalyan-logo"
+                  />
+                </Link>
+                <Link className="nav-down-icos" to="/">
+                  <img
+                    src={Icon2}
+                    alt="himalyan-logo"
+                    className="himalyan-logo"
+                  />
+                </Link>
+                <Link className="nav-down-icos" to="/">
+                  <img
+                    src={Icon3}
+                    alt="himalyan-logo"
+                    className="himalyan-logo"
+                  />
+                </Link>
+                <Link className="nav-down-icos" to="/">
+                  <img
+                    src={Icon4}
+                    alt="himalyan-logo"
+                    className="himalyan-logo"
+                  />
+                </Link>
+              </div>
+            </li>
+          </div>
 
           <div onClick={onClickHeader} className="menu">
             <Hamburger
@@ -116,39 +193,6 @@ export default function Navbar() {
 
           <div className="nav-items">
             <ul>
-              <li className="nav-icos">
-                <div className="icos">
-                  <Link className="nav-down-icos" to="/">
-                    {/* random image from the internet */}
-                    <img
-                      src={Icon1}
-                      alt="himalyan-logo"
-                      className="himalyan-logo"
-                    />
-                  </Link>
-                  <Link className="nav-down-icos" to="/">
-                    <img
-                      src={Icon2}
-                      alt="himalyan-logo"
-                      className="himalyan-logo"
-                    />
-                  </Link>
-                  <Link className="nav-down-icos" to="/">
-                    <img
-                      src={Icon3}
-                      alt="himalyan-logo"
-                      className="himalyan-logo"
-                    />
-                  </Link>
-                  <Link className="nav-down-icos" to="/">
-                    <img
-                      src={Icon4}
-                      alt="himalyan-logo"
-                      className="himalyan-logo"
-                    />
-                  </Link>
-                </div>
-              </li>
               <li>
                 <NavLink exact to="/" className="home-icon">
                   <img src={Home} alt="home" />
@@ -198,6 +242,5 @@ export default function Navbar() {
         </div>
       </div>
     </div>
-    // </div>
   );
 }

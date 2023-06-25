@@ -54,6 +54,109 @@
   animation: shake 0.5s;
 }
 
+.menu-bar ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-bar ul :nth-child(5) {
+  padding-right: 0;
+}
+
+.menu-bar ul li {
+  /* width: 120px; */
+  padding: 0px 16px;
+  /* text-align: center; */
+  position: relative;
+}
+
+.menu-bar ul li a {
+  font-size: 10px;
+  color: var(--color-white);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.menu-bar ul li a:hover {
+  color: var(--color-primary);
+}
+
+.fas {
+  float: right;
+  margin-left: 10px;
+  padding-top: 3px;
+}
+
+/* dropdown menu style */
+.dropdown-menu {
+  display: none;
+}
+.menu-bar{
+  display: none;
+}
+.menu-bar ul li:hover .dropdown-menu {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 80%;
+  z-index: 100;
+  background-color: var(--color-black);
+  width: 120%;
+  color: #262626;
+}
+.nav-lg{
+  display: flex;
+  width: 86%;
+  list-style: none;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 8rem;
+  gap: 2rem;
+}
+.himalyan-logo{
+  width: 140px;
+}
+.nav-icos{
+  width: 50px;
+}
+.menu-bar ul li:hover .dropdown-menu ul {
+  display: block;
+  margin: 10px;
+  background-color: #d7d7d7;
+  padding-left: 0.3rem;
+  width: 100%;
+}
+
+.menu-bar ul li:hover .dropdown-menu ul li {
+  width: 180px;
+  padding: 10px;
+  padding-left: 0.6rem;
+}
+
+.dropdown-menu-1 {
+  display: none;
+}
+
+.dropdown-menu ul li:hover .dropdown-menu-1 {
+  display: block;
+  position: absolute;
+  left: 170px;
+  top: -0.60rem;
+  background-color: var(--color-black);
+}
+
+.dropdown-menu ul li:hover .dropdown-menu-1 ul {
+  background-color: #898989;
+  width: 15rem;
+  color: white;
+}
+
+.dropdown-menu ul li:hover .dropdown-menu-1 ul li {
+  width: 100%;
+}
+
+
 @keyframes shake {
   0% {
     transform: translate(1px, 1px) rotate(0deg);
@@ -129,6 +232,7 @@
   font-size: 13px;
   font-family: 'TelegrafBold', sans-serif;
   font-weight: 600;
+  color: #898989;
 }
 
 .active-navline {
@@ -149,17 +253,13 @@
   width: 50px;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: center;
   height: 50px;
 }
 
 .nav-down-icos img {
   border-radius: 50%;
   width: 20px;
-}
-
-.nav-icos {
-  margin-right: 17rem;
 }
 
 .home-line {
@@ -192,10 +292,6 @@
   font-weight: 600;
 }
 @media screen and (max-width: 400px) {
-  .header-logo img {
-    width: 6rem;
-    height: 3rem;
-  }
   .nav-up-right {
     margin-right: 0.4rem;
     width: 100%;
@@ -228,7 +324,10 @@
     align-content: center;
     justify-content: flex-end;
     z-index: 1000;
+    position: absolute;
+    right: 1rem;
   }
+  
 
   .header-wrapper .nav-items ul {
     flex-direction: column;
@@ -280,6 +379,8 @@
   .header-wrapper.active .menu {
     position: relative;
     transition: all 400ms ease;
+    right: 1rem;
+    position: absolute;
   }
 
   .nav-items ul {
@@ -290,6 +391,26 @@
     padding: 0;
   }
   .nav-up-right a img{
-    width: 12px;
+    width: 16px;
   }
+  .menu-bar{
+    display: block;
+    width: 100%;
+  }
+  .nav-up-left{
+    display: none;
+  }
+  .nav-lg{
+    padding-right: 0;
+    margin-left: 1rem;
+  }
+  .nav-down{
+    padding: 0.5rem 0;
+  }
+}
+
+.menu-bar ul li:hover .dropdown-menu ul li:hover{
+  background-color: #898989;
+  width: 100%;
+  margin-left: 0;
 }

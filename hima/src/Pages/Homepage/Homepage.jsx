@@ -8,7 +8,7 @@ import Achievements from "./Components/Achievements/Achievements";
 
 export default function Homepage() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Navbar />
       <Landing/>
       <About />

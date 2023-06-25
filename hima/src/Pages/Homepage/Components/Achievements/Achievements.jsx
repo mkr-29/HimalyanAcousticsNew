@@ -8,7 +8,7 @@ class Achievements extends Component {
   render() {
     return (
       <div className="achievements">
-        <div className="achievements-body container grid lg:grid-cols-2 grid-cols-1 my-10 px-6 gap-24">
+        <div className="achievements-body container grid lg:grid-cols-2 grid-cols-1 my-10 2xl:px-6 gap-24">
           <div className="achievements-container">
             <h1 className="ach-head">Achievements</h1>
             <div className="achievement-container">
