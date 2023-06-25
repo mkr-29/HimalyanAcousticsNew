@@ -4,6 +4,7 @@
     justify-content: center;
     gap: 3rem;
     margin-top: 3rem;
+    flex-wrap: wrap;
 }
 .about-left{
     width: 40%;
@@ -161,4 +162,11 @@
 }
 .about-right{
     width: 45%;
+}
+
+@media screen and (max-width: 640px) {
+    .about-left{
+        margin: 0;
+        width: 100%;
+    }
 }
