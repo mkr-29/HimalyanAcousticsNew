@@ -5,10 +5,12 @@ const TeamCard = ({ image, name }) => {
 
   const handleMouseEnter = () => {
     setShow(true);
+    console.log(show);
   };
 
   const handleMouseLeave = () => {
     setShow(false);
+    console.log(show);
   };
 
   return (
@@ -19,8 +21,8 @@ const TeamCard = ({ image, name }) => {
     >
       <img src={image} alt={name} className="w-64 h-80 object-cover" />
       <div
-        className={`absolute bottom-0 left-0 transform translate-y-full w-full text-center ${
-          show && "translate-y-0"
+        className={`absolute bottom-0 left-0 transform w-full text-center ${
+          show ? "translate-y-0" : "translate-y-full"
         } transition-transform duration-200 bg-gradient-to-t from-black text-white p-4 z-10`}
       >
         <h2 className="text-lg font-semibold">{name}</h2>
