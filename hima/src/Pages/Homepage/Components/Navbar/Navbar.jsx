@@ -16,17 +16,6 @@ import Icon3 from "./Assets/logo3.png";
 import Icon4 from "./Assets/logo4.png";
 
 export default function Navbar() {
-  // const [header, setHeader] = useState(false);
-
-  // const changeBackground = () => {
-  //   if (window.scrollY >= 10) {
-  //     setHeader(true);
-  //   } else {
-  //     setHeader(false);
-  //   }
-  // };
-
-  // window.addEventListener("scroll", changeBackground);
   const [isOpen, setOpen] = useState(false);
 
   const [isOpen1, setIsOpen1] = useState(false);
@@ -37,7 +26,6 @@ export default function Navbar() {
 
   const location = useLocation();
 
-  // Define a helper function to determine if a link is active
   const isLinkActive = (path) => {
     if (path === "/") {
       return location.pathname === path ? "active-home" : "home-icon";
@@ -55,7 +43,7 @@ export default function Navbar() {
         <div class="menu-bar">
           <ul>
             <li>
-              <a href="/">QUICK LINKS &#9660;</a>
+              <a href="#">QUICK LINKS &#9660;</a>
               <div class="dropdown-menu">
                 <ul>
                   <li>

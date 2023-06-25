@@ -17,22 +17,22 @@ export const coreTeam = [
     {
         id: 1,
         image: Team1,
-        title: 'Priyanka Munshi',
+        title: 'PRIYANKA MUNSHI',
     },
     {
         id: 2,
         image: Team2,
-        title: 'Vishwajit Sandal',
+        title: 'VISHWAJIT SANDAL',
     },
     {
         id: 3,
         image: Team3,
-        title: 'Madanjit Singh',
+        title: 'MADANJIT SINGH',
     },
     {
         id: 4,
         image: Team4,
-        title: 'Vinay Sharma',
+        title: 'VINAY SHARMA',
     },
 ]
 
@@ -40,42 +40,42 @@ export const haTeam = [
     {
         id: 1,
         image: Ha1,
-        title: 'Sanjay Chandel',
+        title: 'SANJAY CHANDEL',
     },
     {
         id: 2,
         image: Ha2,
-        title: 'Balwinder Singh',
+        title: 'BALWINDER SINGH',
     },
     {
         id: 3,
         image: Ha3,
-        title: 'Prashant',
+        title: 'PRASHANT',
     },
     {
         id: 4,
         image: Ha4,
-        title: 'Rahul Malhotra',
+        title: 'RAHUL MALHOTRA',
     },
     {
         id: 5,
         image: Ha5,
-        title: 'Diksha',
+        title: 'DIKSHA',
     },
     {
         id: 6,
         image: Ha6,
-        title: 'Saakshi Bhat',
+        title: 'SAAKSHI BHAT',
     },
     {
         id: 7,
         image: Ha7,
-        title: 'Sakshi Sharma',
+        title: 'SAKSHI SHARMA',
     },
     {
         id: 8,
         image: Ha8,
-        title: 'Sapna Sharma',
+        title: 'SAPNA SHARMA',
     },
 
 ]

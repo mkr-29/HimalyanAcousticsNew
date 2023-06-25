@@ -10,6 +10,9 @@
 .who-wr{
     font-family: TelegrafRegular;
 }
+.who-wr h2, .who-wr h1{
+    font-family: TelegrafBold;
+}
 .history h1 span, .quote-by-ceo{
     font-family: TelegrafBold;
 }
@@ -37,4 +40,7 @@
 }
 .meet-team span{
     font-family: TelegrafBold;
+}
+.ceo-quote{
+    font-family: TelegrafLight;
 }
