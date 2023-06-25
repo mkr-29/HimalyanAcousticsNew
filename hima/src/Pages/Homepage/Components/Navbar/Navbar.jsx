@@ -26,7 +26,6 @@ export default function Navbar() {
 
   const location = useLocation();
 
-  // Define a helper function to determine if a link is active
   const isLinkActive = (path) => {
     if (path === "/") {
       return location.pathname === path ? "active-home" : "home-icon";
@@ -44,7 +43,7 @@ export default function Navbar() {
         <div class="menu-bar">
           <ul>
             <li>
-              <a href="/">QUICK LINKS &#9660;</a>
+              <a href="#">QUICK LINKS &#9660;</a>
               <div class="dropdown-menu">
                 <ul>
                   <li>

@@ -43,8 +43,8 @@ export default function Contact() {
           action=""
           className="flex flex-col 2xl:w-4/5 justify-center flex-wrap w-full items-center"
         >
-          <div className="flex flex-wrap 2xl:gap-10 gap-4 2xl:w-4/5 w-full 2xl:justify-between flex-col px-4">
-            <div className="flex flex-col 2xl:w-1/3">
+          <div className="flex flex-wrap 2xl:gap-10 gap-4 2xl:w-[90%] w-full 2xl:justify-between flex-col px-4 2xl:flex-row">
+            <div className="flex flex-col 2xl:w-[30%]">
               <label htmlFor="fname" className="font-bold 2xl:ml-4 mb-1">
                 FIRST NAME
               </label>
@@ -56,7 +56,7 @@ export default function Contact() {
                 className="border-2 border-white rounded-lg px-2 py-2 bg-black"
               />
             </div>
-            <div className="flex flex-col 2xl:w-1/3">
+            <div className="flex flex-col 2xl:w-[30%]">
               <label htmlFor="email" className="font-bold 2xl:ml-4 mb-1">
                 YOUR EMAIL ID
               </label>
@@ -68,7 +68,7 @@ export default function Contact() {
                 className="border-2 border-white rounded-lg px-2 py-2 bg-black"
               />
             </div>
-            <div className="flex flex-col 2xl:w-1/3">
+            <div className="flex flex-col 2xl:w-[30%]">
               <label htmlFor="interest" className="font-bold 2xl:ml-4 mb-1">
                 INTREST
               </label>

@@ -8,8 +8,8 @@ import { coreTeam, haTeam } from "./Components/images";
 export default function History() {
   return (
     <>
-      <div className="history flex flex-col lg:flex-row 2xl:px-12 px-4 lg:px-24 py-8 my-8 mt-16">
-        <div className="flex-col lg:max-w-[50%]">
+      <div className="history flex flex-col lg:flex-row px-4 2xl:px-24 py-8 my-8 mt-24 gap-20">
+        <div className="flex-col lg:max-w-[45%]">
           <h1 className="text-5xl lg:text-8xl mb-10 mt-10">
             Our <br />
             <span className="font-bold">History</span>
@@ -41,9 +41,9 @@ export default function History() {
             </p>
           </span>
         </div>
-        <div className="years-ha grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-8 mb-8 2xl:ml-12">
+        <div className="years-ha grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-8 2xl:gap-0 2xl:ml-44">
           <div className="flex gap-4 justify-center items-center">
-            <span className="flex justify-center items-center rounded-full w-20 px-2 h-20 text-2xl">
+            <span className="flex justify-center items-center rounded-full w-20 h-20 2xl:w-24 px-2 2xl:h-24 text-2xl">
               2008
             </span>
             <div>
@@ -52,7 +52,7 @@ export default function History() {
             </div>
           </div>
           <div className="flex gap-4 justify-center items-center">
-            <span className="flex justify-center items-center rounded-full px-2 w-20 h-20 text-2xl">
+            <span className="flex justify-center items-center rounded-full px-2 w-20 h-20 2xl:w-24 2xl:h-24 text-2xl">
               2009
             </span>
             <div>
@@ -61,7 +61,7 @@ export default function History() {
             </div>
           </div>
           <div className="flex gap-4 justify-center items-center">
-            <span className="flex justify-center items-center rounded-full px-3 w-20 h-20 text-2xl">
+            <span className="flex justify-center items-center rounded-full px-3 w-20 h-20 2xl:w-24 2xl:h-24 text-2xl">
               2010
             </span>
             <div>
@@ -70,7 +70,7 @@ export default function History() {
             </div>
           </div>
           <div className="flex gap-4 justify-center items-center">
-            <span className="flex justify-center items-center rounded-full px-4 w-20 h-20 text-2xl">
+            <span className="flex justify-center items-center rounded-full px-4 w-20 h-20 2xl:w-24 2xl:h-24 text-2xl">
               2011
             </span>
             <div>
@@ -81,19 +81,19 @@ export default function History() {
         </div>
       </div>
       <div className="who-wr flex flex-col gap-4 px-4 md:px-24 py-8 ">
-        <h2 className="text-xl font-bold">who we are</h2>
+        <h2 className="text-xl font-bold 2xl:text-3xl">who we are</h2>
         <h1 className="lg:text-6xl text-2xl font-bold">
           Designers and Developers of Innovative,
           <br /> World-Class Space
         </h1>
         <div className="founder-image self-center">
-          <img src={CEO} alt="Mohit Munshi" className="w-64" />
+          <img src={CEO} alt="Mohit Munshi" className="w-80 mt-10" />
         </div>
         <p className="text-right font-semibold text-sm">
           With technical excellence and cutting-edge solutions, our team with a
           commitment to build future-ready spaces.
         </p>
-        <p className="quote-by-ceo text-right text-xl font-bold">
+        <p className="quote-by-ceo text-right 2xl:text-2xl text-xl font-bold 2xl:mr-[25%]">
           By Mohit Munshi - CEO
         </p>
       </div>

@@ -107,11 +107,11 @@
 }
 .nav-lg{
   display: flex;
-  width: 86%;
+  width: 82%;
   list-style: none;
   justify-content: flex-start;
   align-items: center;
-  padding-right: 8rem;
+  padding-right: 0rem;
   gap: 2rem;
 }
 .himalyan-logo{
