@@ -16,3 +16,16 @@
 .slick-next {
     right: -70px !important;
 }
+
+@media screen and (max-width:640px) {
+    .slick-prev, .slick-next{
+        width: 25px !important;
+    }
+    .slick-prev {
+        left: -10px !important;
+    }
+    .slick-next {
+        right: -10px !important;
+    }
+    
+}
