@@ -23,7 +23,7 @@ export default function Navbar() {
   const onClickHeader = () => {
     setIsOpen1(!isOpen1);
   };
-
+  
   const location = useLocation();
 
   const isLinkActive = (path) => {
@@ -125,7 +125,7 @@ export default function Navbar() {
         {/* <div className={header ? "header active" : "header"}> */}
         <div
           className={`header-wrapper ${
-            isOpen1 ? "header-wrapper active" : ""
+            isOpen ? "header-wrapper active" : ""
           } `}
         >
           <div className="nav-lg">

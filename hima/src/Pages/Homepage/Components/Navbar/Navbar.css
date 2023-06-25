@@ -291,7 +291,7 @@
   font-family: 'TelegrafBold', sans-serif;
   font-weight: 600;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 950px) {
   .nav-up-right {
     margin-right: 0.4rem;
     width: 100%;
@@ -414,3 +414,19 @@
   width: 100%;
   margin-left: 0;
 }
+
+@media screen and (max-width: 1150px){
+  .header-wrapper{
+    padding: 0 2rem;
+  }
+}
+@media screen and (max-width: 950px){
+  .header-wrapper{
+    padding: 0 1rem;
+  }
+}
+/* @media screen and (max-width: 950px){
+  .header-wrapper{
+    padding: 0 1rem;
+  }
+} */
