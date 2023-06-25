@@ -15,7 +15,7 @@ const TeamCard = ({ image, name }) => {
 
   return (
     <div
-      className="relative bg-white shadow-lg hover:shadow-xl transition-shadow duration-200 rounded-lg overflow-hidden w-64 h-64 mx-auto"
+      className="relative bg-white shadow-lg hover:shadow-xl transition-shadow duration-200 overflow-hidden w-64 h-64 mx-auto"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >

@@ -11,9 +11,9 @@ export default function History() {
   return (
     <div>
       <Navbar />
-      <div className="history flex flex-col lg:flex-row px-12 lg:px-24 py-16 my-8">
+      <div className="history flex flex-col lg:flex-row 2xl:px-12 px-4 lg:px-24 py-8 my-8 mt-16">
         <div className="flex-col lg:max-w-[50%]">
-          <h1 className="text-5xl lg:text-8xl mb-10">
+          <h1 className="text-5xl lg:text-8xl mb-10 mt-10">
             Our <br />
             <span className="font-bold">History</span>
           </h1>
@@ -44,9 +44,9 @@ export default function History() {
             </p>
           </span>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-8 mb-8 ml-12">
-          <div className="flex gap-16 justify-center items-center">
-            <span className="flex justify-center items-center bg-gray-600 rounded-full w-16 px-2 h-16 text-2xl">
+        <div className="years-ha grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-8 mb-8 2xl:ml-12">
+          <div className="flex gap-4 justify-center items-center">
+            <span className="flex justify-center items-center rounded-full w-20 px-2 h-20 text-2xl">
               2008
             </span>
             <div>
@@ -54,8 +54,8 @@ export default function History() {
               <p>This is a sample text insert your desired text here.</p>
             </div>
           </div>
-          <div className="flex gap-16 justify-center items-center">
-            <span className="flex justify-center items-center bg-gray-500 rounded-full px-2 w-16 h-16 text-2xl">
+          <div className="flex gap-4 justify-center items-center">
+            <span className="flex justify-center items-center rounded-full px-2 w-20 h-20 text-2xl">
               2009
             </span>
             <div>
@@ -63,8 +63,8 @@ export default function History() {
               <p>This is a sample text insert your desired text here.</p>
             </div>
           </div>
-          <div className="flex gap-16 justify-center items-center">
-            <span className="flex justify-center items-center bg-gray-400 rounded-full px-2 w-16 h-16 text-2xl">
+          <div className="flex gap-4 justify-center items-center">
+            <span className="flex justify-center items-center rounded-full px-3 w-20 h-20 text-2xl">
               2010
             </span>
             <div>
@@ -72,8 +72,8 @@ export default function History() {
               <p>This is a sample text insert your desired text here.</p>
             </div>
           </div>
-          <div className="flex gap-16 justify-center items-center">
-            <span className="flex justify-center items-center bg-gray-300 rounded-full px-2 w-16 h-16 text-2xl">
+          <div className="flex gap-4 justify-center items-center">
+            <span className="flex justify-center items-center rounded-full px-4 w-20 h-20 text-2xl">
               2011
             </span>
             <div>
@@ -83,21 +83,21 @@ export default function History() {
           </div>
         </div>
       </div>
-      <div className="who-wr flex flex-col gap-8 px-8 md:px-24 py-16 ">
-        <h2 className="text-5xl font-bold">who we are</h2>
-        <h1 className="text-4xl lg:text-6xl font-bold">
-          Designers and Developers of Innovative, World-Class Space
+      <div className="who-wr flex flex-col gap-4 px-4 md:px-24 py-8 ">
+        <h2 className="text-xl font-bold">who we are</h2>
+        <h1 className="lg:text-6xl text-2xl font-bold">
+          Designers and Developers of Innovative,<br/> World-Class Space
         </h1>
         <div className="founder-image self-center">
-          <img src={CEO} alt="Mohit Munshi" className="w-60 rounded-md" />
+          <img src={CEO} alt="Mohit Munshi" className="w-64" />
         </div>
-        <p className="text-center font-semibold text-xl">
+        <p className="text-right font-semibold text-sm">
           With technical excellence and cutting-edge solutions, our team with a
           commitment to build future-ready spaces.
         </p>
-        <p className="text-right text-2xl font-bold">By Mohit Munshi - CEO</p>
+        <p className="quote-by-ceo text-right text-xl font-bold">By Mohit Munshi - CEO</p>
       </div>
-      <h2 className="text-5xl font-light text-center">
+      <h2 className="core-team text-5xl mt-10 font-light text-center">
         CORE <span className="font-bold">TEAM</span>
       </h2>
       <div className="history-team grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 px-8 md:px-24 py-16 justify-center items-center">
