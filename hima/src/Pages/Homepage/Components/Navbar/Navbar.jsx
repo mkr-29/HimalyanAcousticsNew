@@ -55,7 +55,7 @@ export default function Navbar() {
         <div class="menu-bar">
           <ul>
             <li>
-              <a href="#">QUICK LINKS &#9660;</a>
+              <a href="/">QUICK LINKS &#9660;</a>
               <div class="dropdown-menu">
                 <ul>
                   <li>
