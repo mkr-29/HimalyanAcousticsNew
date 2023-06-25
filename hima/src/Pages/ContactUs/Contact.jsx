@@ -1,12 +1,9 @@
 import React from "react";
 import "./Contact.css";
-import Navbar from "../Homepage/Components/Navbar/Navbar";
-import Footer from "../Homepage/Components/Footer/Footer";
 
 export default function Contact() {
   return (
-    <div>
-      <Navbar />
+    <>
       <div className="contact-s1 text-white 2xl:pl-24 py-10 flex flex-col 2xl:gap-4 px-4">
         <span className="2xl:text-5xl font-bold text-3xl">
           We’d love to hear
@@ -148,7 +145,7 @@ export default function Contact() {
             </p>
           </div>
           <div>
-            <h6>BENGALURU  (SOUTH INDIA)</h6>
+            <h6>BENGALURU (SOUTH INDIA)</h6>
             <hr />
             <p className="font-bold">
               To Speak with a Himalya
@@ -188,7 +185,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <Footer/>
-    </div>
+    </>
   );
 }

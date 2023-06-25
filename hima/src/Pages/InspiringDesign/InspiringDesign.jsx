@@ -1,6 +1,4 @@
 import React from "react";
-import Footer from "../Homepage/Components/Footer/Footer";
-import Navbar from "../Homepage/Components/Navbar/Navbar";
 import "./InspiringDesign.css";
 import Img1 from "./Assets/img1.png";
 import Img2 from "./Assets/img2.png";
@@ -17,8 +15,7 @@ import Img12 from "./Assets/img12.png";
 
 export default function InspiringDesign() {
   return (
-    <div>
-      <Navbar />
+    <>
       <div className="inspiring-design">
         <div className="flex flex-col w-full 2xl:w-1/2 2xl:ml-24 pt-14 2xl:pr-20 px-4">
           <h1 className="inspd-head">
@@ -31,20 +28,20 @@ export default function InspiringDesign() {
             But new materials are changing the way the wall and ceiling industry
             can use acoustic treatments as part of the aesthetics of a space,
             and the sky is the limit.
-          <br />
-          <br />
+            <br />
+            <br />
             Acoustical treatment solutions are no exception, and play an
             important role in the redesign of workspaces, schools, healthcare
             facilities, hospitality venues, and so on. Now acoustic products are
             getting the attention they deserve and are no longer an
             afterthought, acoustical treatments are just as important as décor
             and aesthetics & décor while controlling sound.
-          <br />
-          <br />
+            <br />
+            <br />
             Acoustical products are moving beyond functionality and are being
             used as art, advertising images and decoration.
-          <br />
-          <br />
+            <br />
+            <br />
             Our new ranges of products are an amalgamation of Acoustics + Design
             delivering high performance and yet a design option to be
             incorporated in a space, making our solution easier for the A&D
@@ -102,7 +99,6 @@ export default function InspiringDesign() {
           <img src={Img12} alt="" />
         </div>
       </div>
-      <Footer />
-    </div>
+    </>
   );
 }

@@ -1,7 +1,5 @@
 import React from "react";
 import "./History.css";
-import Footer from "../Homepage/Components/Footer/Footer";
-import Navbar from "../Homepage/Components/Navbar/Navbar";
 
 import CEO from "./Assets/Images/ceo.png";
 import TeamCard from "./Components/TeamCard";
@@ -9,8 +7,7 @@ import { coreTeam, haTeam } from "./Components/images";
 
 export default function History() {
   return (
-    <div>
-      <Navbar />
+    <>
       <div className="history flex flex-col lg:flex-row 2xl:px-12 px-4 lg:px-24 py-8 my-8 mt-16">
         <div className="flex-col lg:max-w-[50%]">
           <h1 className="text-5xl lg:text-8xl mb-10 mt-10">
@@ -86,7 +83,8 @@ export default function History() {
       <div className="who-wr flex flex-col gap-4 px-4 md:px-24 py-8 ">
         <h2 className="text-xl font-bold">who we are</h2>
         <h1 className="lg:text-6xl text-2xl font-bold">
-          Designers and Developers of Innovative,<br/> World-Class Space
+          Designers and Developers of Innovative,
+          <br /> World-Class Space
         </h1>
         <div className="founder-image self-center">
           <img src={CEO} alt="Mohit Munshi" className="w-64" />
@@ -95,7 +93,9 @@ export default function History() {
           With technical excellence and cutting-edge solutions, our team with a
           commitment to build future-ready spaces.
         </p>
-        <p className="quote-by-ceo text-right text-xl font-bold">By Mohit Munshi - CEO</p>
+        <p className="quote-by-ceo text-right text-xl font-bold">
+          By Mohit Munshi - CEO
+        </p>
       </div>
       <h2 className="core-team text-5xl mt-10 font-light text-center">
         CORE <span className="font-bold">TEAM</span>
@@ -113,7 +113,6 @@ export default function History() {
           <TeamCard key={image.id} name={image.title} image={image.image} />
         ))}
       </div>
-      <Footer />
-    </div>
+    </>
   );
 }

@@ -16,17 +16,6 @@ import Icon3 from "./Assets/logo3.png";
 import Icon4 from "./Assets/logo4.png";
 
 export default function Navbar() {
-  // const [header, setHeader] = useState(false);
-
-  // const changeBackground = () => {
-  //   if (window.scrollY >= 10) {
-  //     setHeader(true);
-  //   } else {
-  //     setHeader(false);
-  //   }
-  // };
-
-  // window.addEventListener("scroll", changeBackground);
   const [isOpen, setOpen] = useState(false);
 
   const [isOpen1, setIsOpen1] = useState(false);

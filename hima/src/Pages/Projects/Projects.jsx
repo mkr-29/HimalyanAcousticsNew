@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../Homepage/Components/Navbar/Navbar";
 import "./Projects.css";
 import Carousel1 from "./Carousel/Carousel1";
 import GP1 from "./Assets/GovernmentProjects/img1.png";
@@ -11,9 +10,9 @@ import ALH3 from "./Assets/AuditoriumLH/img3.png";
 import CMH1 from "./Assets/ConventionMH/img1.png";
 import CMH2 from "./Assets/ConventionMH/img2.png";
 import CMH3 from "./Assets/ConventionMH/img3.png";
-import CO1 from "./Assets/CorporateOffice/img1.png"
-import CO2 from "./Assets/CorporateOffice/img2.png"
-import CO3 from "./Assets/CorporateOffice/img3.png"
+import CO1 from "./Assets/CorporateOffice/img1.png";
+import CO2 from "./Assets/CorporateOffice/img2.png";
+import CO3 from "./Assets/CorporateOffice/img3.png";
 import E1 from "./Assets/Education/img1.png";
 import E2 from "./Assets/Education/img2.png";
 import E3 from "./Assets/Education/img3.png";
@@ -32,22 +31,20 @@ import SC3 from "./Assets/SportsComplex/img3.png";
 import HC1 from "./Assets/Healthcare/img1.png";
 import HC2 from "./Assets/Healthcare/img2.png";
 import HC3 from "./Assets/Healthcare/img3.png";
-import Footer from "../Homepage/Components/Footer/Footer";
 
 export default function Projects() {
-    const govtP=[GP1,GP2,GP3,GP1];
-    const audLH=[ALH1,ALH2,ALH3,ALH1];
-    const conMH=[CMH1,CMH2,CMH3,CMH1];
-    const corpO=[CO1,CO2,CO3,CO1];
-    const educa=[E1,E2,E3,E1];
-    const comHC=[CHC1,CHC2,CHC3,CHC1];
-    const studi=[S1,S2,S3,S1];
-    const worhP=[WP1,WP2,WP3,WP1];
-    const sporC=[SC1,SC2,SC3,SC1];
-    const healC=[HC1,HC2,HC3,HC1];
+  const govtP = [GP1, GP2, GP3, GP1];
+  const audLH = [ALH1, ALH2, ALH3, ALH1];
+  const conMH = [CMH1, CMH2, CMH3, CMH1];
+  const corpO = [CO1, CO2, CO3, CO1];
+  const educa = [E1, E2, E3, E1];
+  const comHC = [CHC1, CHC2, CHC3, CHC1];
+  const studi = [S1, S2, S3, S1];
+  const worhP = [WP1, WP2, WP3, WP1];
+  const sporC = [SC1, SC2, SC3, SC1];
+  const healC = [HC1, HC2, HC3, HC1];
   return (
-    <div>
-      <Navbar />
+    <>
       <div className="projs-landing">
         <h2 className="projs-head">
           featured
@@ -84,66 +81,47 @@ export default function Projects() {
       <div className="projs-cars">
         <div className="proj-1">
           <h2>#government projects</h2>
-          <Carousel1
-            images={govtP}
-          />
+          <Carousel1 images={govtP} />
         </div>
         <div className="proj-1">
           <h2>#auditorium & lecture hall</h2>
-          <Carousel1
-            images={audLH}
-          />
+          <Carousel1 images={audLH} />
         </div>
         <div className="proj-1">
           <h2>#convention & multipurpose hall</h2>
-          <Carousel1
-            images={conMH}
-          />
+          <Carousel1 images={conMH} />
         </div>
         <div className="proj-1">
           <h2>#corporate office</h2>
-          <Carousel1
-            images={corpO}
-          />
+          <Carousel1 images={corpO} />
         </div>
         <div className="proj-1">
           <h2>#education</h2>
-          <Carousel1
-            images={educa}
-          />
+          <Carousel1 images={educa} />
         </div>
         <div className="proj-1">
           <h2>#commercial & home cinemas</h2>
-          <Carousel1
-            images={comHC}
-          />
+          <Carousel1 images={comHC} />
         </div>
         <div className="proj-1">
           <h2>#studio</h2>
-          <Carousel1
-            images={studi}
-          />
+          <Carousel1 images={studi} />
         </div>
         <div className="proj-1">
           <h2>#worship place</h2>
-          <Carousel1
-            images={worhP}
-          />
+          <Carousel1 images={worhP} />
         </div>
         <div className="proj-1">
-          <h2>#sports complex (stadium, gym, swimming area and shooting range)</h2>
-          <Carousel1
-            images={sporC}
-          />
+          <h2>
+            #sports complex (stadium, gym, swimming area and shooting range)
+          </h2>
+          <Carousel1 images={sporC} />
         </div>
         <div className="proj-1">
           <h2>#healthcare</h2>
-          <Carousel1
-            images={healC}
-          />
+          <Carousel1 images={healC} />
         </div>
       </div>
-      <Footer/>
-    </div>
+    </>
   );
 }
