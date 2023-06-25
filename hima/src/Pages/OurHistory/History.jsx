@@ -93,7 +93,7 @@ export default function History() {
           With technical excellence and cutting-edge solutions, our team with a
           commitment to build future-ready spaces.
         </p>
-        <p className="quote-by-ceo text-right 2xl:text-2xl text-xl font-bold 2xl:mr-[25%]">
+        <p className="quote-by-ceo text-right 2xl:text-2xl text-xl font-bold">
           By Mohit Munshi - CEO
         </p>
       </div>
