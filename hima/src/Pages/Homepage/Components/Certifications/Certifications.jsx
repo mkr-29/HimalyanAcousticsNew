@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./Certifications.css";
-import Random from "../../Assets/random.jpg";
 import Antibacterial from "./Assets/antibacterial.png";
 import Griha from "./Assets/griha.png";
 import Iso from "./Assets/iso.png";

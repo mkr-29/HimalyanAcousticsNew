@@ -1,19 +1,23 @@
 import React from "react";
+import "./History.css";
 import Footer from "../Homepage/Components/Footer/Footer";
 import Navbar from "../Homepage/Components/Navbar/Navbar";
-import "./History.css";
+
+import CEO from "./Assets/Images/ceo.png";
+import TeamCard from "./Components/TeamCard";
+import { coreTeam, haTeam } from "./Components/images";
 
 export default function History() {
   return (
     <div>
       <Navbar />
-      <div className="history flex gap-24 px-24 pt-16">
-        <div className="flex-col w-1/2">
-          <h1 className="text-8xl mb-10">
+      <div className="history flex flex-col lg:flex-row px-12 lg:px-24 py-16 my-8">
+        <div className="flex-col lg:max-w-[50%]">
+          <h1 className="text-5xl lg:text-8xl mb-10">
             Our <br />
             <span className="font-bold">History</span>
           </h1>
-          <span className="font-medium">
+          <span className="font-medium mr-4">
             <p>
               In years past, acoustic treatments were all about form and
               function. But new materials are changing the way the wall and
@@ -40,9 +44,9 @@ export default function History() {
             </p>
           </span>
         </div>
-        <div className="his-right flex flex-col gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-8 mb-8 ml-12">
           <div className="flex gap-16 justify-center items-center">
-            <span className="flex justify-center items-center bg-red-600 rounded-full w-20 h-20 text-2xl">
+            <span className="flex justify-center items-center bg-gray-600 rounded-full w-16 px-2 h-16 text-2xl">
               2008
             </span>
             <div>
@@ -51,7 +55,7 @@ export default function History() {
             </div>
           </div>
           <div className="flex gap-16 justify-center items-center">
-            <span className="flex justify-center items-center bg-red-500 rounded-full w-20 h-20 text-2xl">
+            <span className="flex justify-center items-center bg-gray-500 rounded-full px-2 w-16 h-16 text-2xl">
               2009
             </span>
             <div>
@@ -60,7 +64,7 @@ export default function History() {
             </div>
           </div>
           <div className="flex gap-16 justify-center items-center">
-            <span className="flex justify-center items-center bg-red-400 rounded-full w-20 h-20 text-2xl">
+            <span className="flex justify-center items-center bg-gray-400 rounded-full px-2 w-16 h-16 text-2xl">
               2010
             </span>
             <div>
@@ -69,7 +73,7 @@ export default function History() {
             </div>
           </div>
           <div className="flex gap-16 justify-center items-center">
-            <span className="flex justify-center items-center bg-red-300 rounded-full w-20 h-20 text-2xl">
+            <span className="flex justify-center items-center bg-gray-300 rounded-full px-2 w-16 h-16 text-2xl">
               2011
             </span>
             <div>
@@ -79,45 +83,37 @@ export default function History() {
           </div>
         </div>
       </div>
-      <div className="who-wr flex flex-col gap-8 px-24 pt-16 bg-indigo-900 pb-48">
-        <h2 className="text-5xl text-white font-bold">who we are</h2>
-        <p className="w-1/2 text-white ">
-          We are a curated team of international expertd united by a single
-          goal, to create Category defining brands and digital experience that
-          make an impact, shape culture and connect people.
-        </p>
-        <div className="flex gap-16">
-          <div className="flex flex-col gap-2">
-            <img src="https://source.unsplash.com/random/300x400" alt="" />
-            <div className="text-white">
-              <h3>Mohit Munshi</h3>
-              <p>CEO</p>
-            </div>
-          </div>
-          <div className="flex flex-col gap-2">
-            <img src="https://source.unsplash.com/random/300x400" alt="" />
-            <div className="text-white">
-              <h3>Vishwajit Sandal</h3>
-              <p>Joint Director</p>
-            </div>
-          </div>
-          <div className="flex flex-col gap-2">
-            <img src="https://source.unsplash.com/random/300x400" alt="" />
-            <div className="text-white">
-              <h3>Madanjit Singh</h3>
-              <p>HR Head</p>
-            </div>
-          </div>
-          <div className="flex flex-col gap-2">
-            <img src="https://source.unsplash.com/random/300x400" alt="" />
-            <div className="text-white">
-              <h3>Vinay Sharma</h3>
-              <p>HR Head</p>
-            </div>
-          </div>
+      <div className="who-wr flex flex-col gap-8 px-8 md:px-24 py-16 ">
+        <h2 className="text-5xl font-bold">who we are</h2>
+        <h1 className="text-4xl lg:text-6xl font-bold">
+          Designers and Developers of Innovative, World-Class Space
+        </h1>
+        <div className="founder-image self-center">
+          <img src={CEO} alt="Mohit Munshi" className="w-60 rounded-md" />
         </div>
+        <p className="text-center font-semibold text-xl">
+          With technical excellence and cutting-edge solutions, our team with a
+          commitment to build future-ready spaces.
+        </p>
+        <p className="text-right text-2xl font-bold">By Mohit Munshi - CEO</p>
       </div>
-      <Footer/>
+      <h2 className="text-5xl font-light text-center">
+        CORE <span className="font-bold">TEAM</span>
+      </h2>
+      <div className="history-team grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 px-8 md:px-24 py-16 justify-center items-center">
+        {coreTeam.map((image) => (
+          <TeamCard key={image.id} name={image.title} image={image.image} />
+        ))}
+      </div>
+      <h2 className="text-5xl font-light text-center">
+        MEET TEAM <span className="font-bold">HIMALAYAN ACOUSTICS</span>
+      </h2>
+      <div className="history-team grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 px-8 md:px-24 py-16 ">
+        {haTeam.map((image) => (
+          <TeamCard key={image.id} name={image.title} image={image.image} />
+        ))}
+      </div>
+      <Footer />
     </div>
   );
 }
