@@ -89,11 +89,11 @@ export default function History() {
         <div className="founder-image self-center">
           <img src={CEO} alt="Mohit Munshi" className="w-80 mt-10" />
         </div>
-        <p className="text-right font-semibold text-sm">
-          With technical excellence and cutting-edge solutions, our team with a
+        <p className="2xl:text-left text-right font-semibold text-sm 2xl:text-2xl 2xl:ml-[25%]">
+          With technical excellence and cutting-edge solutions, our team<br/>with a
           commitment to build future-ready spaces.
         </p>
-        <p className="quote-by-ceo text-right 2xl:text-2xl text-xl font-bold">
+        <p className="quote-by-ceo text-right 2xl:text-2xl text-xl font-bold 2xl:mr-[22.5%]">
           By Mohit Munshi - CEO
         </p>
       </div>

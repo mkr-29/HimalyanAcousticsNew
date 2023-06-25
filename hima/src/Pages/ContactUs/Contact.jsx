@@ -86,7 +86,7 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="mt-10 border-solid border-2 text-2xl font-bold px-24 py-2"
+            className="mt-10 border-solid border-2 text-2xl font-bold px-28 py-2"
           >
             Confirm
           </button>
