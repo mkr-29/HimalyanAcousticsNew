@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
     margin-top: 3rem;
+    gap: 2rem;
     flex-wrap: wrap;
 }
 /* .about-1{
@@ -18,23 +18,19 @@
 }
 .about-head{
     font-size: 50px;
-    color: #E23424;
+    color: var(--color1);
     line-height: 4rem;
     margin-bottom: 0.5rem;
     font-weight: 700;
     line-height: 50px;
-    font-family: TelegrafBold;
+    font-family: var(--font3);
 }
 .about-desc{
-    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .about-desc a{
     color:#E23424;
     font-family: TelegrafBold;
-}
-.about-desc span{
-    font-weight: 700;
 }
 .about-sub-head{
     color: #6e6e6e;
@@ -95,10 +91,6 @@
 .banner-in1 span:nth-child(2){
     font-size: 19px;
 }
-.banner-in1 span:nth-child(3),
-.banner-in1 span:nth-child(6){
-    font-size: 13px;
-}
 .banner-in1 span:nth-child(5),
 .banner-in2 span:nth-child(5),
 .banner-in2 span:nth-child(2){
@@ -108,7 +100,7 @@
     font-size: 17px;
 }
 .banner-in1 span:nth-child(7){
-    font-size: 44px;
+    font-size: 42px;
     font-family: TelegrafLight;
 }
 .banner-in2 span:nth-child(3){
