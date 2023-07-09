@@ -6,6 +6,9 @@
     margin-top: 3rem;
     flex-wrap: wrap;
 }
+/* .about-1{
+    display: flex;
+} */
 .about-left{
     width: 40%;
     display: flex;
@@ -17,7 +20,7 @@
     font-size: 50px;
     color: #E23424;
     line-height: 4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     font-weight: 700;
     line-height: 50px;
     font-family: TelegrafBold;
@@ -71,7 +74,7 @@
 .banner-in{
     position: absolute;
     font-family: TelegrafRegular;
-    top: 2rem;
+    top: 1rem;
 }
 .banner-in span:nth-child(2),
 .banner-in span:nth-child(5),
@@ -87,7 +90,7 @@
 .banner-in1, .banner-in2, .banner-in3{
     position: absolute;
     font-family: TelegrafRegular;
-    top: 2rem;
+    top: 1rem;
 }
 .banner-in1 span:nth-child(2){
     font-size: 19px;
