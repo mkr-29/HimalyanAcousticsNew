@@ -11,11 +11,11 @@
 
 .nav-up {
   width: 100%;
-  background-color: #262626;
+  background-color: #404040;
   display: flex;
   justify-content: space-between;
   color: white;
-  padding: 0.8rem 0;
+  padding: 0.4rem 0;
 }
 
 .nav-up-left {
@@ -29,6 +29,7 @@
 .nav-up-links {
   font-size: 10px;
   /* font-weight: 600; */
+  color: #d7d7d7;
   font-family: 'TelegrafBold', sans-serif;
 }
 
@@ -175,7 +176,7 @@
   display: flex;
   width: 100%;
   background-color: white;
-  padding: 1rem 0;
+  padding: 0.2rem 0;
 }
 
 .nav-down-links {
@@ -218,7 +219,7 @@
 }
 
 .nav-items {
-  width: 80%;
+  width: 60%;
 }
 
 .nav-items ul {

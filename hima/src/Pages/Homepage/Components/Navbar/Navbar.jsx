@@ -23,15 +23,11 @@ export default function Navbar() {
   const onClickHeader = () => {
     setIsOpen1(!isOpen1);
   };
-  
+
   const location = useLocation();
 
   const isLinkActive = (path) => {
-    if (path === "/") {
-      return location.pathname === path ? "active-home" : "home-icon";
-    } else {
-      return location.pathname === path ? "active-navs" : "nav-down-links";
-    }
+    return location.pathname === path ? "active-navs" : "nav-down-links";
   };
 
   const isUpLinkActive = (path) => {
@@ -51,17 +47,19 @@ export default function Navbar() {
                       className={isUpLinkActive("./sustainability")}
                       to="/sustainability"
                     >
-                      SUSTAINABILITY
+                      Sustainability
                     </NavLink>
                   </li>
                   <li>
                     <Link className="nav-up-links" to="/">
-                      PARTNER WITH US
+                      Partner With Us
                     </Link>
                   </li>
                   <li>
                     <Link className="nav-up-links" to="/">
-                      INTERNATIONAL COLLABORATION
+                      International
+                      <br />
+                      Collaboration
                     </Link>
                   </li>
                   <li>
@@ -69,12 +67,12 @@ export default function Navbar() {
                       className={isUpLinkActive("./certification")}
                       to="/certification"
                     >
-                      CERTIFICATION
+                      Certification
                     </NavLink>
                   </li>
                   <li>
                     <Link className="nav-up-links" to="/">
-                      CARRIERS@HA
+                      Carriers@HA
                     </Link>
                   </li>
                 </ul>
@@ -87,22 +85,22 @@ export default function Navbar() {
             className={isUpLinkActive("./sustainability")}
             to="/sustainability"
           >
-            SUSTAINABILITY
+            Sustainability
           </NavLink>
           <Link className="nav-up-links" to="/">
-            PARTNER WITH US
+            Partner With Us
           </Link>
           <Link className="nav-up-links" to="/">
-            INTERNATIONAL COLLABORATION
+            Iinternational Collaboration
           </Link>
           <NavLink
             className={isUpLinkActive("./certification")}
             to="/certification"
           >
-            CERTIFICATION
+            Certification
           </NavLink>
           <Link className="nav-up-links" to="/">
-            CARRIERS@HA
+            Carriers@HA
           </Link>
         </div>
         <div className="nav-up-right">
@@ -124,9 +122,7 @@ export default function Navbar() {
       <div className="nav-down">
         {/* <div className={header ? "header active" : "header"}> */}
         <div
-          className={`header-wrapper ${
-            isOpen ? "header-wrapper active" : ""
-          } `}
+          className={`header-wrapper ${isOpen ? "header-wrapper active" : ""} `}
         >
           <div className="nav-lg">
             <NavLink to="/" className="header-logo">
@@ -182,14 +178,9 @@ export default function Navbar() {
           <div className="nav-items">
             <ul>
               <li>
-                <NavLink exact to="/" className="home-icon">
-                  <img src={Home} alt="home" />
-                  {/* if path===/ then display HomeAc else HomeIn */}
-                  {isLinkActive("/") === "active-home" ? (
-                    <img src={HomeAc} alt="home" />
-                  ) : (
-                    <img src={HomeIn} alt="home" />
-                  )}
+                <NavLink exact to="/" className={isLinkActive("/")}>
+                  Home
+                  <span className="active-navline" />
                 </NavLink>
               </li>
               <li>
@@ -197,13 +188,13 @@ export default function Navbar() {
                   className={isLinkActive("/our-history")}
                   to="/our-history"
                 >
-                  OUR HISTORY
+                  Our History
                   <span className="active-navline" />
                 </NavLink>
               </li>
               <li>
                 <NavLink className={isLinkActive("/projects")} to="/projects">
-                  PROJECTS
+                  Projects
                   <span className="active-navline" />
                 </NavLink>
               </li>
@@ -212,7 +203,7 @@ export default function Navbar() {
                   className={isLinkActive("/inspiring-design")}
                   to="/inspiring-design"
                 >
-                  INSPIRING DESIGN
+                  Inspiring Design
                   <span className="active-navline" />
                 </NavLink>
               </li>
@@ -221,7 +212,7 @@ export default function Navbar() {
                   className={isLinkActive("/contact-us")}
                   to="/contact-us"
                 >
-                  CONTACT US
+                  Contact Us
                   <span className="active-navline" />
                 </NavLink>
               </li>
