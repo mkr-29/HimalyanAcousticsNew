@@ -40,7 +40,7 @@ export default function About() {
             based solutions
           </h1>
           <div className="flex 2xl:gap-10 gap-2">
-            <div className="banner flex flex-col justify-centre 2xl:w-1/5 justify-center items-center w-36">
+            <div className="banner flex flex-col justify-centre 2xl:w-auto justify-center items-center w-36">
               <img src={Asset1} alt="" className="max-w-[6.8rem]" />
               <div className="banner-in flex flex-col items-center text-white">
                 <span className="text-xl leading-5">ONE OF</span>
@@ -54,7 +54,7 @@ export default function About() {
                 <span className="leading-5">system</span>
               </div>
             </div>
-            <div className="banner flex flex-col justify-centre 2xl:w-1/5 justify-center items-center w-36">
+            <div className="banner flex flex-col justify-centre 2xl:w-auto justify-center items-center w-36">
               <img src={Asset1} alt="" className="max-w-[6.8rem]" />
               <div className="banner-in1 flex flex-col items-center text-white">
                 <span className="text-lg leading-4 text-black">excellent</span>
@@ -66,7 +66,7 @@ export default function About() {
                 <span className="leading-10">panel</span>
               </div>
             </div>
-            <div className="banner flex flex-col justify-centre 2xl:w-1/5 justify-center items-center w-36">
+            <div className="banner flex flex-col justify-centre 2xl:w-auto justify-center items-center w-36">
               <img src={Asset1} alt="" className="max-w-[6.8rem]" />
               <div className="banner-in2 flex flex-col items-center text-white">
                 <span className="text-xs leading-4 text-black">
@@ -82,7 +82,7 @@ export default function About() {
                 <span className="leading-4">UPTO 65 STC</span>
               </div>
             </div>
-            <div className="banner flex flex-col justify-centre 2xl:w-1/5 justify-center items-center w-36">
+            <div className="banner flex flex-col justify-centre 2xl:w-auto justify-center items-center w-36">
               <img src={Asset1} alt="" className="max-w-[6.8rem]" />
               <div className="banner-in3 flex flex-col items-center text-white">
                 <span className="text-lg leading-4 text-black">featuring</span>
@@ -121,8 +121,8 @@ export default function About() {
             <Link className="text-lg font-semibold text-[#E23424]" to="">Read More...</Link>
           </span>
         </div>
-        <div className="w-1/2 flex flex-col gap-2">
-          <h1 className="about-sub-head mt-10">
+        <div className="w-1/2 flex flex-col gap-2 justify-center">
+          <h1 className="about-sub-head">
             INDOOR AIR QUALITY
             <br />
             <span>at our best green standards</span>
