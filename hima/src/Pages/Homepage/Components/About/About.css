@@ -65,6 +65,7 @@
 }
 .banner{
     position: relative;
+    width: auto;
     /* background: url(./Assets/asset1.png); */
 }
 .banner-in{

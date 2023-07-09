@@ -14,7 +14,7 @@ export default function About() {
             <br />
             meet's design!!
           </h1>
-          <span className="about-desc text-xs xl:text-sm 2xl:text-[17px] flex flex-col gap-5">
+          <span className="about-desc text-xs xl:text-[17px] leading-6 text-justify 2xl:text-[17px] flex flex-col gap-5">
             <span className="font-normal">
               In years past, acoustic treatments were all about form and
               function. But new materials are changing the way the wall and
@@ -39,7 +39,7 @@ export default function About() {
             <br />
             based solutions
           </h1>
-          <div className="flex 2xl:gap-10 gap-2">
+          <div className="flex 2xl:gap-10 gap-10">
             <div className="banner flex flex-col justify-centre 2xl:w-auto justify-center items-center w-36">
               <img src={Asset1} alt="" className="max-w-[6.8rem]" />
               <div className="banner-in flex flex-col items-center text-white">
