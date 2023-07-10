@@ -17,12 +17,9 @@
     margin-left: 4rem;
 }
 .about-head{
-    font-size: 50px;
     color: var(--color1);
-    line-height: 4rem;
     margin-bottom: 0.5rem;
     font-weight: 700;
-    line-height: 50px;
     font-family: var(--font3);
 }
 .about-desc{
@@ -78,9 +75,6 @@
     position: absolute;
     font-family: TelegrafRegular;
 }
-.banner-in1 span:nth-child(2){
-    font-size: 19px;
-}
 .banner-in1 span:nth-child(5),
 .banner-in2 span:nth-child(5),
 .banner-in2 span:nth-child(2){
@@ -115,10 +109,6 @@
     .about-left{
         margin: 0;
         width: 90%;
-    }
-    .about-head{
-        font-size: 32px;
-        line-height: 30px;
     }
     .about-desc{
         font-size: 14px;
