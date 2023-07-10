@@ -34,14 +34,11 @@
 }
 .about-sub-head{
     color: #6e6e6e;
-    font-size: 40px;
     font-weight: 700;
-    line-height: 40px;
     font-family: TelegrafBold;
 }
 .about-sub-head span{
     font-weight: 400;
-    font-size: 40px;
     font-family: TelegrafRegular;
 }
 .div-3{
@@ -71,23 +68,15 @@
 .banner-in{
     position: absolute;
     font-family: TelegrafRegular;
-    top: 1rem;
 }
 .banner-in span:nth-child(2),
 .banner-in span:nth-child(5),
 .banner-in span:nth-child(6){
     font-family: TelegrafBold;
 }
-.banner-in span:nth-child(7){
-    font-size: 26px;
-}
-.banner-in span:nth-child(6){
-    font-size: 19px;
-}
 .banner-in1, .banner-in2, .banner-in3{
     position: absolute;
     font-family: TelegrafRegular;
-    top: 1rem;
 }
 .banner-in1 span:nth-child(2){
     font-size: 19px;
@@ -97,54 +86,16 @@
 .banner-in2 span:nth-child(2){
     font-family: TelegrafBold;
 }
-.banner-in2 span:nth-child(2){
-    font-size: 17px;
-}
 .banner-in1 span:nth-child(7){
-    font-size: 42px;
     font-family: TelegrafLight;
-}
-.banner-in2 span:nth-child(3){
-    font-size: 12.5px;
-}
-.banner-in2 span:nth-child(6){
-    font-size: 9px;
 }
 .banner-in2 span:nth-child(7){
     font-family: TelegrafBold;
-    font-size: 21px;
-}
-.banner-in2 span:nth-child(9){
-    font-size: 14.5px;
-}
-.banner-in3 span:nth-child(4){
-    font-size: 10.5px;
-}
-.banner-in3 span:nth-child(6){
-    font-size: 22px;
-}
-.banner-in3 span:nth-child(3){ 
-    font-size: 12.8px;
-}
-.banner-in3 span:nth-child(5){
-    font-size: 12.5px;
-}
-.banner-in3 span:nth-child(4){
-    font-size: 11px;
 }
 .banner-in3 span:nth-child(7),
 .banner-in3 span:nth-child(8),
 .banner-in3 span:nth-child(9){
     font-family: TelegrafBold;
-}
-.banner-in3 span:nth-child(7){
-    font-size: 14.5px;
-}
-.banner-in3 span:nth-child(8){
-    font-size: 22.5px;
-}
-.banner-in3 span:nth-child(9){
-    font-size: 19.5px;
 }
 .div-2 h3{
     background-color: #CC3300;
