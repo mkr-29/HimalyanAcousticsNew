@@ -4,9 +4,10 @@ import "./Footer.css";
 class Footer extends Component {
   render() {
     return (
-      <div className="footer">
-        <footer className="footer-body container px-10 grid xl:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-6 pb-10">
-          <div className="link-section flex justify-start flex-col">
+      <div className="footer px-2 flex flex-col xl:px-14">
+        <h2 className="text-[22px] xl:text-[34px] font-bold">sitemap</h2>
+        <footer className="flex flex-wrap justify-between">
+          <div className="link-section flex justify-start flex-col max-w-max">
             <h3 className="text-gray-400 font-bold py-2 px-1">Inside HA</h3>
             <h3 className="py-2 px-1">
               <a href="/">Our Company</a>
@@ -24,7 +25,7 @@ class Footer extends Component {
               <a href="/">HA Infrastructure</a>
             </h3>
           </div>
-          <div className="link-section flex justify-start flex-col">
+          <div className="link-section flex justify-start flex-col max-w-max">
             <h3 className="text-gray-400 font-bold py-2 px-1">Activities</h3>
             <h3 className="py-2 px-1">
               <a href="/">Blog</a>
@@ -33,7 +34,7 @@ class Footer extends Component {
               <a href="/">Featured Projects</a>
             </h3>
           </div>
-          <div className="link-section flex justify-start flex-col">
+          <div className="link-section flex justify-start flex-col max-w-max">
             <h3 className="text-gray-400 font-bold py-2 px-1">
               Partner With Us
             </h3>
@@ -50,7 +51,7 @@ class Footer extends Component {
               <a href="/">Text</a>
             </h3>
           </div>
-          <div className="link-section flex justify-start flex-col">
+          <div className="link-section flex justify-start flex-col max-w-max">
             <h3 className="text-gray-400 font-bold py-2 px-1">Get In Touch</h3>
             <h3 className="py-2 px-1">
               <a href="/">Careers</a>

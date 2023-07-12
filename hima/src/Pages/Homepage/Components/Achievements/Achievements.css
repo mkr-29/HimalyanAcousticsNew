@@ -4,12 +4,7 @@
     justify-content: center;
     align-items: center;
 }
-.achievements-body{
-    width: 90%;
-}
 .ach-head{
-    color: #898989;
-    font-size: 35px;
     font-weight: 700;
     font-family: TelegrafBold;
 }
@@ -77,9 +72,6 @@
     }
     .reflogos img{
         width: 80px;
-    }
-    .ach-head{
-        font-size: 28px;
     }
     .ach-cont-1, .ach-cont-2{
         flex-wrap: wrap;

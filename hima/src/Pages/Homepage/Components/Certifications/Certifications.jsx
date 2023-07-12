@@ -7,9 +7,9 @@ import Iso from "./Assets/iso.png";
 class Certifications extends Component {
   render() {
     return (
-      <div className="certifications">
+      <div className="certifications px-2 xl:px-14">
         <div id="certifications-body" className="container 2xl:my-10">
-          <h1 className="certi-head">Certifications</h1>
+          <h1 className="certi-head text-[22px] xl:text-[34px]">accredations</h1>
           <div className="card-container grid md:grid-cols-2 xl:grid-cols-4 gap-10">
             <div className="container shadow-lg p-10 my-5">
               <span className="block w-20 h-20 items-center mx-auto my-4">

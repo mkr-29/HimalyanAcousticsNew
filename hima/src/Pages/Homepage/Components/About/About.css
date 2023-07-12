@@ -26,17 +26,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .about-desc a{
-    color:#E23424;
-    font-family: TelegrafBold;
+    font-family: TelegrafRegular;
 }
 .about-sub-head{
-    color: #6e6e6e;
     font-weight: 700;
     font-family: TelegrafBold;
-}
-.about-sub-head span{
-    font-weight: 400;
-    font-family: TelegrafRegular;
 }
 .div-3{
     display: flex;

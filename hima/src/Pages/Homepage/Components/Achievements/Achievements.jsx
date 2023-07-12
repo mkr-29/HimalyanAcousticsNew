@@ -8,9 +8,9 @@ class Achievements extends Component {
   render() {
     return (
       <div className="achievements">
-        <div className="achievements-body container grid lg:grid-cols-2 grid-cols-1 my-10 2xl:px-6 gap-24">
+        <div className="achievements-body container px-2 grid lg:grid-cols-2 grid-cols-1 my-10 2xl:px-14 gap-24">
           <div className="achievements-container">
-            <h1 className="ach-head">Achievements</h1>
+            <h1 className="ach-head text-[22px] xl:text-[34px]">achievements</h1>
             <div className="achievement-container">
               <div className="ach-cont-1">
                 <div className="achievement">
@@ -53,7 +53,7 @@ class Achievements extends Component {
             </div>
           </div>
           <div className="References flex flex-col justify-start">
-            <h1 className="ach-head">References</h1>
+            <h1 className="ach-head text-[22px] xl:text-[34px]">references</h1>
             <div className="grid grid-cols-3">
               <span className="m-2 p-2">
                 <span className="reflogos block items-center mx-auto my-4flex flex-col">
