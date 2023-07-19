@@ -181,7 +181,7 @@
 
 .nav-down-links {
   font-size: 13px;
-  font-family: 'TelegrafBold', sans-serif;
+  font-family: var(TelegrafRegular);
   font-weight: 600;
 }
 
@@ -231,7 +231,7 @@
 .active-navs {
   /* text-decoration: underline; */
   font-size: 13px;
-  font-family: 'TelegrafBold', sans-serif;
+  font-family: var(TelegrafRegular);
   font-weight: 600;
   color: #898989;
 }
