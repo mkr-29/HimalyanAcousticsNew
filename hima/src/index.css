@@ -20,8 +20,22 @@ body {
 }
 
 *{
-  --font1: TelegrafLight;
+  --font1: Calibri;
   --font2: TelegrafRegular;
   --font3: TelegrafBold;
-  --color1: #E23424;
+  --color1: #2B2A29;
+  --color2: #FEFEFE;
+  --color3: #727271;
+}
+.color1{
+  color: var(--color1);
+}
+.color2{
+  color: var(--color2);
+}
+.color3{
+  color: var(--color3);
+}
+.font1{
+  font-family: var(--font1);
 }

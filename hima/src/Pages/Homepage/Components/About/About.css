@@ -17,16 +17,15 @@
     margin-left: 4rem;
 }
 .about-head{
-    color: black;
-    margin-bottom: 0.5rem;
-    font-weight: 700;
-    font-family: var(--font3);
+    font-family: var(--font1);
+    font-weight: bold;
 }
 .about-desc{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font1);
+    color: var(--color3);
 }
 .about-desc a{
-    font-family: TelegrafRegular;
+    font-family: var(--font1);
 }
 .about-sub-head{
     font-weight: 700;
@@ -58,21 +57,11 @@
 }
 .banner-in{
     position: absolute;
-    font-family: TelegrafRegular;
-}
-.banner-in span:nth-child(2),
-.banner-in span:nth-child(5),
-.banner-in span:nth-child(6){
-    font-family: TelegrafBold;
+    font-family: var(--font1);
 }
 .banner-in1, .banner-in2, .banner-in3{
     position: absolute;
-    font-family: TelegrafRegular;
-}
-.banner-in1 span:nth-child(5),
-.banner-in2 span:nth-child(5),
-.banner-in2 span:nth-child(2){
-    font-family: TelegrafBold;
+    font-family: var(--font1);
 }
 .banner-in1 span:nth-child(7){
     font-family: TelegrafLight;
