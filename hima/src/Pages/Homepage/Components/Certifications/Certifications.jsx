@@ -1,79 +1,54 @@
 import React, { Component } from "react";
 import "./Certifications.css";
-import Antibacterial from "./Assets/antibacterial.png";
 import Griha from "./Assets/griha.png";
 import Iso from "./Assets/iso.png";
+import CBRI from "./Assets/cbri.png";
+import NPL from "./Assets/npl.png";
 
 class Certifications extends Component {
   render() {
     return (
-      <div className="certifications px-2 xl:px-14">
+      <div className="certifications xl:px-4">
         <div id="certifications-body" className="container 2xl:my-10">
-          <h1 className="certi-head text-[22px] xl:text-[34px]">accredations</h1>
+          <h1 className="2xl:text-[28px] font1 color1 font-bold">
+            Accredations
+          </h1>
           <div className="card-container grid md:grid-cols-2 xl:grid-cols-4 gap-10">
-            <div className="container shadow-lg p-10 my-5">
-              <span className="block w-20 h-20 items-center mx-auto my-4">
+            <div className="container shadow-lg p-10 py-16 my-5">
+              <span className="block w-28 h-28 items-center mx-auto my-4">
                 <img
-                  src={Griha}
+                  src={Iso}
                   alt="Griha"
                   className=" w-full h-full object-cover rounded-full"
                 />
               </span>
-              <h2 className="certi-name">GRIHA</h2>
-              <p className="text-center">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio
-                exercitationem id laboriosam adipisci cumque nisi molestiae
-                consequatur perspiciatis tempore laudantium? Animi sed hic atque
-                accusamus natus quasi iusto quis similique.
-              </p>
             </div>
-            <div className="container shadow-lg p-10 my-5">
-              <span className="block w-20 h-20 items-center mx-auto my-4">
+            <div className="container shadow-lg p-10 py-16 pt-6 my-5">
+              <span className="block w-28 h-28 items-center mx-auto my-4">
                 <img
-                  src={Iso}
+                  src={Griha}
                   alt="Iso"
-                  className=" w-full h-full object-cover rounded-full"
+                  className=" w-[200px] h-[200px] object-cover rounded-full"
                 />
               </span>
-              <h2 className="certi-name">ISO</h2>
-              <p className="text-center">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio
-                exercitationem id laboriosam adipisci cumque nisi molestiae
-                consequatur perspiciatis tempore laudantium? Animi sed hic atque
-                accusamus natus quasi iusto quis similique.
-              </p>
             </div>
-            <div className="container shadow-lg p-10 my-5">
-              <span className="block w-20 h-20 items-center mx-auto my-4">
+            <div className="container shadow-lg p-10 py-16 pt-6 my-5">
+              <span className="block w-34 h-28 items-center mx-auto my-4">
                 <img
-                  src={Antibacterial}
+                  src={NPL}
                   alt="Antibacterial"
-                  className=" w-full h-full object-cover rounded-full"
+                  className="w-[250px] h-[200px] object-cover rounded-full"
                 />
               </span>
-              <h2 className="certi-name">ANTIBACTERIAL</h2>
-              <p className="text-center">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio
-                exercitationem id laboriosam adipisci cumque nisi molestiae
-                consequatur perspiciatis tempore laudantium? Animi sed hic atque
-                accusamus natus quasi iusto quis similique.
-              </p>
             </div>
-            <div className="container shadow-lg p-10 my-5">
-              <span className="block w-20 h-20 items-center mx-auto my-4">
+            <div className="container shadow-lg p-10 py-16 pt-6 my-5">
+              <span className="block w-30 h-28 items-center mx-auto my-4">
                 <img
-                  src={Iso}
+                  src={CBRI}
                   alt="Iso"
-                  className=" w-full h-full object-cover rounded-full"
+                  className="w-[230px] ml-2 h-[200px] object-cover rounded-full"
                 />
               </span>
-              <h2 className="certi-name">ISO</h2>
-              <p className="text-center">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio
-                exercitationem id laboriosam adipisci cumque nisi molestiae
-                consequatur perspiciatis tempore laudantium? Animi sed hic atque
-                accusamus natus quasi iusto quis similique.
-              </p>
             </div>
           </div>
         </div>

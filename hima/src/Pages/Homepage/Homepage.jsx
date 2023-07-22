@@ -9,6 +9,7 @@ export default function Homepage() {
     <div className="overflow-x-hidden">
       <Landing />
       <About />
+      <hr className="mx-4 my-8 mt-12 border-solid border w-full" />
       <Achievements />
       <Certifications />
     </div>
