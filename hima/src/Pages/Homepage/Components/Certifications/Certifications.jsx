@@ -8,7 +8,7 @@ import NPL from "./Assets/npl.png";
 class Certifications extends Component {
   render() {
     return (
-      <div className="certifications xl:px-4">
+      <div className="certifications xl:px-8">
         <div id="certifications-body" className="container 2xl:my-10">
           <h1 className="2xl:text-[28px] font1 color1 font-bold">
             Accredations

@@ -87,7 +87,32 @@
 .about-right{
     width: 45%;
 }
-
+.about-carousel .slick-slider{
+    width: 4%;
+}
+.about-carousel .slick-prev,
+.about-carousel .slick-next
+{
+    display: none !important;
+}
+.about-carousel .slick-list{
+    width: 40rem;
+}
+.about-carousel .slick-dots{
+    display: block;
+    rotate: 90deg;
+    bottom: -5rem;
+    left: 19rem;
+}
+.about-carousel .slick-dots li button:before{
+    font-size: 16px;
+}
+.about-carousel .slick-active .active-dot{
+    background-color: var(--color3);
+}
+.about-carousel .slick-slide img{
+    padding: 0;
+}
 @media screen and (max-width: 640px) {
     .about-left{
         margin: 0;

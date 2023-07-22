@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 class Footer extends Component {
   render() {
     return (
-      <div className="footer bg1 px-4 pb-32">
+      <div className="footer bg1 px-8 pb-32">
         <footer className="flex">
           <div className="w-1/2 flex flex-col mt-10 gap-16">
             <div className="flex gap-20">
