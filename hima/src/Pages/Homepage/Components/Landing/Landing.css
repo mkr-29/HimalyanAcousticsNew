@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin-left: 4.7rem;
 }
 @media screen and (max-width: 400px) {
   .landing-image {

@@ -13,10 +13,10 @@ import { Link } from "react-router-dom";
 class Footer extends Component {
   render() {
     return (
-      <div className="footer bg1 px-8 pb-32">
+      <div className="footer bg1 px-16 pb-32">
         <footer className="flex">
           <div className="w-1/2 flex flex-col mt-10 gap-16">
-            <div className="flex gap-20">
+            <div className="flex gap-8">
               <img src={FB} className="w-10 h-10" alt="" />
               <img src={IN} className="w-10 h-10" alt="" />
               <img src={LN} className="w-10 h-10" alt="" />
@@ -77,26 +77,54 @@ class Footer extends Component {
           <div className="flex font1 color2 gap-28 mt-12">
             <div className="flex flex-col gap-4">
               <h3 className="font-bold text-[18px]">INSIDE HA</h3>
-              <Link className="font1 text-[18px] font-light mt-2" to="">About Us</Link>
-              <Link className="font1 text-[18px] font-light" to="">Our Presence</Link>
-              <Link className="font1 text-[18px] font-light" to="">Certifications</Link>
-              <Link className="font1 text-[18px] font-light" to="">Sustainability</Link>
-              <Link className="font1 text-[18px] font-light" to="">Inspiring Design</Link>
-              <Link className="font1 text-[18px] font-light" to="">Featured Projects</Link>
-              <Link className="font1 text-[18px] font-light" to="">Faq</Link>
+              <Link className="font1 text-[18px] font-light mt-2" to="">
+                About Us
+              </Link>
+              <Link className="font1 text-[18px] font-light" to="">
+                Our Presence
+              </Link>
+              <Link className="font1 text-[18px] font-light" to="">
+                Certifications
+              </Link>
+              <Link className="font1 text-[18px] font-light" to="">
+                Sustainability
+              </Link>
+              <Link className="font1 text-[18px] font-light" to="">
+                Inspiring Design
+              </Link>
+              <Link className="font1 text-[18px] font-light" to="">
+                Featured Projects
+              </Link>
+              <Link className="font1 text-[18px] font-light" to="">
+                Faq
+              </Link>
             </div>
             <div className="flex flex-col gap-4">
               <h3 className="font-bold text-[18px]">DOWNLOADS</h3>
-              <Link className="font1 text-[18px] font-light mt-2" to="">Accreditations</Link>
-              <Link className="font1 text-[18px] font-light" to="">Company Profile</Link>
-              <Link className="font1 text-[18px] font-light" to="">Design Book</Link>
+              <Link className="font1 text-[18px] font-light mt-2" to="">
+                Accreditations
+              </Link>
+              <Link className="font1 text-[18px] font-light" to="">
+                Company Profile
+              </Link>
+              <Link className="font1 text-[18px] font-light" to="">
+                Design Book
+              </Link>
             </div>
             <div className="flex flex-col gap-4">
               <h3 className="font-bold text-[18px]">PARTNERSHIPS</h3>
-              <Link className="font1 text-[18px] font-light mt-2t" to="">Partner With Us</Link>
-              <Link className="font1 text-[18px] font-light" to="">Global Collaboration</Link>
-              <Link className="font1 text-[18px] font-light" to="">Newsroom</Link>
-              <Link className="font1 text-[18px] font-light" to="">Newsletter</Link>
+              <Link className="font1 text-[18px] font-light mt-2t" to="">
+                Partner With Us
+              </Link>
+              <Link className="font1 text-[18px] font-light" to="">
+                Global Collaboration
+              </Link>
+              <Link className="font1 text-[18px] font-light" to="">
+                Newsroom
+              </Link>
+              <Link className="font1 text-[18px] font-light" to="">
+                Newsletter
+              </Link>
             </div>
           </div>
         </footer>

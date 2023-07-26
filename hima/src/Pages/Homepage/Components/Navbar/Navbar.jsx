@@ -65,9 +65,11 @@ export default function Navbar() {
           <Link className="nav-up-links" to="/">
             Partner With Us
           </Link>
+          <span className="bg-white w-[0.1px] h-full" />
           <Link className="nav-up-links" to="/">
             Global Collaboration
           </Link>
+          <span className="bg-white w-[1px] h-full" />
           <Link className="nav-up-links" to="/">
             Carriers
           </Link>
@@ -118,6 +120,7 @@ export default function Navbar() {
                   Home
                   <span className="active-navline" />
                 </NavLink>
+                <span className="bg-black w-[1px] h-full" />
               </li>
               <li>
                 <NavLink

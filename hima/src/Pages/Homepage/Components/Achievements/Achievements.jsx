@@ -6,12 +6,13 @@ import Inox from "./Assets/inox.png";
 import Reliance from "./Assets/rel.png";
 import Mcd from "./Assets/mcd.png";
 import Pag from "./Assets/pag.png";
+import ytbe from "./Assets/ytbe.png";
 
 class Achievements extends Component {
   render() {
     return (
       <div className="achievements">
-        <div className="achievements-body container px-2 grid lg:grid-cols-2 grid-cols-1 my-10 2xl:px-4 gap-20">
+        <div className="achievements-body container px-2 grid lg:grid-cols-2 grid-cols-1 my-10 2xl:px-16 gap-20">
           <div className="achievements-container">
             <h1 className="2xl:text-[28px] font1 color1 font-bold">
               Achievements
@@ -19,7 +20,7 @@ class Achievements extends Component {
             <div className="achievement-container">
               <div className="ach-cont-1">
                 <div className="achievement py-4 pb-6">
-                  <h3 className="font-black font3 color4 text-[38px] leading-10">
+                  <h3 className="font-black font3 color4 text-[38px] text-left leading-10">
                     18+
                   </h3>
                   <p className="color3 font1 text-[16px] mt-1">Years of R&D</p>
@@ -31,7 +32,9 @@ class Achievements extends Component {
                   <h3 className="font-black font3 color4 text-[38px] leading-10">
                     10+
                   </h3>
-                  <p className="color3 font1 text-[16px] leading-5 mt-1">Major &</p>
+                  <p className="color3 font1 text-[16px] leading-5 mt-1">
+                    Major &
+                  </p>
                   <p className="color3 font1 text-[16px] leading-5">
                     Metropolitan
                   </p>
@@ -80,7 +83,9 @@ class Achievements extends Component {
                   <h3 className="font-black font3 color4 text-[38px] leading-10">
                     150+
                   </h3>
-                  <p className="color3 font1 text-[16px] leading-5 mt-1">Bespoke</p>
+                  <p className="color3 font1 text-[16px] leading-5 mt-1">
+                    Bespoke
+                  </p>
                   <p className="color3 font1 text-[16px] leading-5">
                     Product Genres
                   </p>
@@ -91,9 +96,11 @@ class Achievements extends Component {
                 </div>
                 <div className="achievement py-4 pb-6">
                   <h3 className="font-black font3 color4 text-[38px] leading-10">
-                    500++
+                    500+
                   </h3>
-                  <p className="color3 font1 text-[16px] leading-5 mt-1">Projects</p>
+                  <p className="color3 font1 text-[16px] leading-5 mt-1">
+                    Projects
+                  </p>
                   <p className="color3 font1 text-[16px] leading-5">
                     Delivered
                   </p>
@@ -102,7 +109,9 @@ class Achievements extends Component {
             </div>
           </div>
           <div className="References flex flex-col justify-start">
-            <h1 className="2xl:text-[28px] font1 color1 font-bold">References</h1>
+            <h1 className="2xl:text-[28px] font1 color1 font-bold">
+              References
+            </h1>
             <div className="grid grid-cols-3">
               <span className="m-2 p-2">
                 <span className="reflogos block items-center mx-auto my-4flex flex-col">
@@ -143,6 +152,7 @@ class Achievements extends Component {
             </div>
           </div>
         </div>
+        <img src={ytbe} className="px-16" alt="" />
       </div>
     );
   }

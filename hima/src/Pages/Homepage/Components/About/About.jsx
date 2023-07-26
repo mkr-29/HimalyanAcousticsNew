@@ -9,7 +9,7 @@ const images = [Asset2, Asset2, Asset2, Asset2, Asset2];
 export default function About() {
   return (
     <div className="about">
-      <div className="about-1 gap-7 flex flex-col px-4 lg:flex-row lg:gap-20">
+      <div className="about-1 gap-7 flex flex-col px-16 lg:flex-row lg:gap-20">
         <div className="div-1 flex flex-col 2xl:w-1/2 w-full px-2">
           <h1 className="about-head 2xl:text-[28px] color1">
             Acoustic Meet's Design
@@ -81,13 +81,13 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="about-2 flex flex-col mt-2 gap-8 sm:px-8  lg:gap-24 lg:flex-row 2xl:px-6">
+      <div className="about-2 flex flex-col mt-2 gap-8 sm:px-8  lg:gap-24 lg:flex-row 2xl:px-16">
         <div className="flex flex-col justify-start items-start w-full lg:w-1/2">
           <h3 className="font1 font-bold text-[28px] color1">
-            Introducing Carbon Adsorb Panels
+            Introducing Carbon Adsorb Panels for Air
           </h3>
           <h2 className="font1 font-bold text-[28px] mt-2 leading-3 color1">
-            for Air & Noise Pollution
+            & Noise Pollution
           </h2>
           <p className="font1 2xl:text-[26px] leading-10 font-light mt-8 color3 text-justify">
             Stabilized by chemical impregnation, Sound Barrier Acoustical
@@ -103,10 +103,10 @@ export default function About() {
         </div>
         <div className="flex flex-col justify-start items-start w-full lg:w-1/2">
           <h3 className="font1 font-bold text-[28px] color1">
-            Indoor Air Quality at its best with
+            Indoor Air Quality at its best with our Green Standards
           </h3>
           <h2 className="font1 font-bold text-[28px] mt-2 leading-3 color1">
-            our Green Standards & Lab. Certifications
+            & Lab. Certifications
           </h2>
           <span className="text-justify color3 font1 font-light text-[26px] leading-10 mt-8 mr-2">
             Environmental noise and air pollution, as well as poor green
