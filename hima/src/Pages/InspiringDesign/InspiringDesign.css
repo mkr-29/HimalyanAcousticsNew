@@ -1,60 +1,64 @@
-.inspiring-design{
-    margin-top: 8.1rem;
-    background-image: url("./Assets/landing.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    color: white;
+.inspiring-design {
+  margin-top: 8.1rem;
+  background-image: url("./Assets/landing.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
 }
-.inspd-head{
-    font-size: 5rem;
-    line-height: 5rem;
-    font-family: TelegrafRegular;
+.inspd-head {
+  font-size: 5rem;
+  line-height: 5rem;
+  font-family: TelegrafRegular;
 }
-.inspd-head span{
-    font-family: TelegrafBold;
+.inspd-head span {
+  font-family: TelegrafBold;
 }
-.designs{
-    display: flex;
-    padding: 0 8rem;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: #000;
-    padding-top: 5rem;
-    gap: 2rem;
-    padding-bottom: 5rem;
+.designs {
+  display: flex;
+  padding: 0 8rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #000;
+  padding-top: 5rem;
+  gap: 2rem;
+  padding-bottom: 5rem;
 }
-.des-1 h2{
-    color: #afb0b0;
-    font-size: 35px;
-    font-weight: 800;
-    line-height: 50px;
+.des-1 h2 {
+  color: #afb0b0;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 50px;
 }
-.des-1 img{
-    width: 37rem;
-    height: 22rem;
+.des-1 img {
+  width: 37rem;
+  height: 22rem;
 }
-.des-2 h2{
-    font-size: 27px;
+.des-2 h2 {
+  font-size: 27px;
 }
-
+.inspiring-design-carousel .slick-dots {
+  display: none !important;
+}
+.insp-des-car .slick-dots {
+  display: none !important;
+}
 @media screen and (max-width: 640px) {
-    .inspiring-design{
-        margin-top: 6rem;
-    }
-    .inspd-head {
-        font-size: 3rem;
-        line-height: 3rem;
-    }
-    .designs {
-        padding: 2rem 1rem;
-    }
-    .des-1 img{
-        height: 13rem;
-    }
-    .des-1 h2{
-        font-size: 18px;
-    }
-
+  .inspiring-design {
+    margin-top: 6rem;
+  }
+  .inspd-head {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .designs {
+    padding: 2rem 1rem;
+  }
+  .des-1 img {
+    height: 13rem;
+  }
+  .des-1 h2 {
+    font-size: 18px;
+  }
 }

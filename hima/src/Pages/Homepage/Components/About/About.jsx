@@ -122,8 +122,8 @@ export default function About() {
         </div>
       </div>
       <hr className="mx-4 my-4 border-solid border-[2px] w-full" />
-      <div className="flex px-24 gap-24">
-        <div className="flex flex-col w-[40rem] z-10">
+      <div className="flex px-24 gap-16">
+        <div className="flex flex-col w-[35rem] z-10">
           <h2 className="font1 font-bold text-[28px] w-[70%] color1">
             Get Inspired with our Acoustical Seamless Ceiling Systems
           </h2>
