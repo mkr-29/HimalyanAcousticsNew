@@ -12,7 +12,7 @@ class Achievements extends Component {
   render() {
     return (
       <div className="achievements">
-        <div className="achievements-body container px-2 grid lg:grid-cols-2 grid-cols-1 my-10 2xl:px-16 gap-20">
+        <div className="achievements-body container px-2 grid lg:grid-cols-2 grid-cols-1 my-10 2xl:px-0 gap-20">
           <div className="achievements-container">
             <h1 className="2xl:text-[28px] font1 color1 font-bold">
               Achievements
@@ -152,7 +152,7 @@ class Achievements extends Component {
             </div>
           </div>
         </div>
-        <img src={ytbe} className="px-16" alt="" />
+        {/* <img src={ytbe} className="px-16" alt="" /> */}
       </div>
     );
   }

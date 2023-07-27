@@ -4,13 +4,14 @@ import { Link } from "react-router-dom";
 import Asset1 from "./Assets/asset1.png";
 import Asset2 from "./Assets/cielingsystems.png";
 import AboutCarousel from "./AboutCarousel";
+import ytbe from "../Achievements/Assets/ytbe.png";
 
 const images = [Asset2, Asset2, Asset2, Asset2, Asset2];
 export default function About() {
   return (
     <div className="about">
-      <div className="about-1 gap-7 flex flex-col px-16 lg:flex-row lg:gap-20">
-        <div className="div-1 flex flex-col 2xl:w-1/2 w-full px-2">
+      <div className="achievements-body container px-2 grid lg:grid-cols-2 grid-cols-1 my-10 2xl:px-0 gap-20">
+        <div className="div-1 flex flex-col 2xl:w-full w-full px-2">
           <h1 className="about-head 2xl:text-[28px] color1">
             Acoustic Meet's Design
           </h1>
@@ -30,8 +31,32 @@ export default function About() {
             </span>
           </span>
         </div>
+        <div className="flex w-full">
+          <img src={ytbe} className="w-full" alt="" />
+        </div>
+      </div>
+      <div className="achievements-body container px-2 grid lg:grid-cols-2 grid-cols-1 my-10 2xl:px-0 gap-20">
+        <div className="flex flex-col w-full z-10">
+          <h3 className="font1 font-bold text-[28px] color1">
+            Introducing Carbon Adsorb Panels for Air
+          </h3>
+          <h2 className="font1 font-bold text-[28px] mt-2 leading-3 color1">
+            & Noise Pollution
+          </h2>
+          <p className="text-justify color3 font1 font-light leading-10 text-[26px] mt-6">
+            Stabilized by chemical impregnation, Sound Barrier Acoustical
+            Facades panel made of long, strong wood fiber and cement. Good heat
+            resistance and high noise reduction performance are two of the
+            advantages of these barriers. Since sound insulation and acoustic
+            treatment of rooms like wall and ceiling are common, it is commonly
+            used.
+          </p>
+          <Link className="color3 text-[22px]" to="">
+            Read More...
+          </Link>
+        </div>
 
-        <div className="div-1 flex flex-col justify-between 2xl:w-1/2 w-full px-2">
+        <div className="achievements-body container px-2 grid lg:grid-cols-2 grid-cols-1 2xl:px-0 gap-20">
           <div className="flex flex-col gap-2">
             <h1 className="about-head 2xl:text-[28px] color1">
               Featured Projects
@@ -79,46 +104,6 @@ export default function About() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="about-2 flex flex-col mt-2 gap-8 sm:px-8  lg:gap-24 lg:flex-row 2xl:px-16">
-        <div className="flex flex-col justify-start items-start w-full lg:w-1/2">
-          <h3 className="font1 font-bold text-[28px] color1">
-            Introducing Carbon Adsorb Panels for Air
-          </h3>
-          <h2 className="font1 font-bold text-[28px] mt-2 leading-3 color1">
-            & Noise Pollution
-          </h2>
-          <p className="font1 2xl:text-[26px] leading-10 font-light mt-8 color3 text-justify">
-            Stabilized by chemical impregnation, Sound Barrier Acoustical
-            Facades panel made of long, strong wood fiber and cement. Good heat
-            resistance and high noise reduction performance are two of the
-            advantages of these barriers. Since sound insulation and acoustic
-            treatment of rooms like wall and ceiling are common, it is commonly
-            used.
-          </p>
-          <Link className="font1 xl:text-[26px] font-light color3" to="">
-            Real More...
-          </Link>
-        </div>
-        <div className="flex flex-col justify-start items-start w-full lg:w-1/2">
-          <h3 className="font1 font-bold text-[28px] color1">
-            Indoor Air Quality at its best with our Green Standards
-          </h3>
-          <h2 className="font1 font-bold text-[28px] mt-2 leading-3 color1">
-            & Lab. Certifications
-          </h2>
-          <span className="text-justify color3 font1 font-light text-[26px] leading-10 mt-8 mr-2">
-            Environmental noise and air pollution, as well as poor green
-            infrastructure quality, are major concerns for the new spaces being
-            designed in the contemporary era. This issue is further stressed for
-            urban areas located close to aggressive sources of such pollutants,
-            such as airports, railways, highways, or leisure areas.
-            <br />
-            <Link to="/" className="">
-              Read More...
-            </Link>
-          </span>
         </div>
       </div>
       <hr className="mx-4 my-4 border-solid border-[2px] w-full" />
