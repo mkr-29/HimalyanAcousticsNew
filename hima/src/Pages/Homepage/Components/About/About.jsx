@@ -25,7 +25,7 @@ export default function About() {
               in the redesign of workspaces, schools, healthcare facilities,
               hospitality venues, and soon.
               <br />
-              <Link to="/" className="tracking-wide">
+              <Link to="/" className="tracking-wide color4">
                 Read More...
               </Link>
             </span>
@@ -51,7 +51,7 @@ export default function About() {
             treatment of rooms like wall and ceiling are common, it is commonly
             used.
           </p>
-          <Link className="color3 text-[22px]" to="">
+          <Link className="color3 text-[22px] color4" to="">
             Read More...
           </Link>
         </div>
@@ -120,7 +120,7 @@ export default function About() {
             allows to deliver the best solution with an excellent asthetic
             appeal, for all kinds of spaces.
           </p>
-          <Link className="color3 text-[22px]" to="">
+          <Link className="color3 text-[22px] color4" to="">
             Read More...
           </Link>
         </div>
