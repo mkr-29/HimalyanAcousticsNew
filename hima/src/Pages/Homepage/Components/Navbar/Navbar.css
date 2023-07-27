@@ -21,9 +21,8 @@
 .nav-up-left {
   display: flex;
   align-items: flex-end;
-  width: 23%;
-  justify-content: space-around;
-  margin-left: 1rem;
+  width: 21%;
+  justify-content: space-between;
 }
 
 .nav-up-links {
@@ -37,14 +36,13 @@
 }
 
 .nav-up-right a img {
-  width: 17px;
+  width: 23px;
 }
 
 .nav-up-right {
   display: flex;
   align-items: center;
   gap: 0.2rem;
-  margin-right: 1rem;
   width: 7%;
   justify-content: space-between;
 }
@@ -212,7 +210,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 1.5rem;
   width: 100%;
 }
 
