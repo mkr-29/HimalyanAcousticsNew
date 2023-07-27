@@ -30,6 +30,7 @@ body {
   --color4: #e31e24;
   --color5: #ebebeb;
   --color6: #00a0e3;
+  --color7: #feae46;
 }
 .color1 {
   color: var(--color1);
@@ -45,6 +46,12 @@ body {
 }
 .color5 {
   color: var(--color5);
+}
+.color6 {
+  color: var(--color6);
+}
+.color7 {
+  color: var(--color7);
 }
 .font1 {
   font-family: var(--font1);

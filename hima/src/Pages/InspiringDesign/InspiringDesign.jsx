@@ -86,7 +86,7 @@ export default function InspiringDesign() {
         </div>
       </div>
       <h1 className="font3 text-[32px] pt-14 pb-2 color3">Application</h1>
-      <div className="inspiring-design-carousel pb-24">
+      <div className="inspiring-design-carousel pb-24 overflow-hidden">
         <InspCarousel images={assets} data={data} />
       </div>
     </div>
