@@ -29,6 +29,7 @@ body {
   --color3: #727271;
   --color4: #e31e24;
   --color5: #ebebeb;
+  --color6: #00a0e3;
 }
 .color1 {
   color: var(--color1);
@@ -65,4 +66,7 @@ body {
 }
 .bg3 {
   background-color: var(--color3);
+}
+.bg6 {
+  background-color: var(--color6);
 }
