@@ -18,7 +18,15 @@ export default function About() {
           <h1 className="">Acoustic Meet's Design</h1>
         </Link>
         <div className="flex w-full">
-          <img src={ytbe} className="w-full h-[82%]" alt="" />
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/tTbwhk2Lkuo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
       <div className="achievements-body h-auto my-10 container px-2 grid lg:grid-cols-2 grid-cols-1 2xl:px-0 gap-20">
