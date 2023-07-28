@@ -5,34 +5,19 @@ import Asset1 from "./Assets/asset1.png";
 import Asset2 from "./Assets/cielingsystems.png";
 import AboutCarousel from "./AboutCarousel";
 import ytbe from "../Achievements/Assets/ytbe.png";
+import AMD from "./Assets/amd.png";
 
 const images = [Asset2, Asset2, Asset2, Asset2, Asset2];
 export default function About() {
   return (
     <div className="about">
-      <div className="achievements-body container px-2 grid lg:grid-cols-2 grid-cols-1 my-10 2xl:px-0 gap-20">
-        <div className="div-1 flex flex-col 2xl:w-full w-full px-2">
-          <h1 className="about-head 2xl:text-[28px] color1">
-            Acoustic Meet's Design
-          </h1>
-          <span className="about-desc text-xs flex flex-col gap-2 leading-5 sm:text-[14px] sm:leading-6 lg:text-[12px] xl:text-[16px] 2xl:text-[18px] 2xl:leading-8">
-            <span className="font1 text-justify 2xl:text-[26px] font-light leading-10">
-              In years past, acoustic treatments were all about form and
-              function. But new materials are changing the way the wall and
-              ceiling industry can use acoustic treatments as part of the
-              aesthetics of a space, and the sky is the limit. Acoustical
-              treatment solutions are no exception, and play an important role
-              in the redesign of workspaces, schools, healthcare facilities,
-              hospitality venues, and soon.
-              <br />
-              <Link to="/" className="tracking-wide color4">
-                Read More...
-              </Link>
-            </span>
-          </span>
-        </div>
+      <div className="achievements-body h-[22.4rem] container px-2 grid lg:grid-cols-2 grid-cols-1 2xl:px-0 gap-20">
+        <Link to="/inspiring-design" className="about-head">
+          <img src={AMD} className="" alt="" />
+          <h1 className="">Acoustic Meet's Design</h1>
+        </Link>
         <div className="flex w-full">
-          <img src={ytbe} className="w-full" alt="" />
+          <img src={ytbe} className="w-full h-[82%]" alt="" />
         </div>
       </div>
       <div className="achievements-body container px-2 grid lg:grid-cols-2 grid-cols-1 my-10 2xl:px-0 gap-20">
