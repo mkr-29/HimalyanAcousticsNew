@@ -142,7 +142,7 @@ export default function History() {
       <div className="flex w-[94%] relative mt-20">
         <div className="w-[18%] relative flex justify-end">
           <span className="w-[13px] h-full bg-grey block mr-10" />
-          <div className="absolute flex left-[3%] top-[-2.1rem]">
+          <div className="absolute flex right-[13%] top-[-2.1rem]">
             <div className="flex flex-col w-[12rem]">
               <h4 className="color7 font3 text-[26px]">2022</h4>
               <hr className="w-full border-[3px]" />
@@ -153,7 +153,7 @@ export default function History() {
             </div>
             <span className="border-4 rounded-full border-[#feae46] block w-5 h-5 ml-7 mt-[2rem]" />
           </div>
-          <div className="absolute flex left-[0.55rem] top-[17%]">
+          <div className="absolute flex right-[13%] top-[17%]">
             <div className="flex flex-col w-[12rem]">
               <h4 className="color7 font3 text-[26px]">2018</h4>
               <hr className="w-full border-[3px]" />
@@ -164,7 +164,7 @@ export default function History() {
             </div>
             <span className="border-4 rounded-full border-[#feae46] block w-5 h-5 ml-7 mt-[2rem]" />
           </div>
-          <div className="absolute flex left-[0.55rem] top-[36%]">
+          <div className="absolute flex right-[13%] top-[36%]">
             <div className="flex flex-col w-[12rem]">
               <h4 className="color7 font3 text-[26px]">2015</h4>
               <hr className="w-full border-[3px]" />
@@ -175,7 +175,7 @@ export default function History() {
             </div>
             <span className="border-4 rounded-full border-[#feae46] block w-5 h-5 ml-7 mt-[2rem]" />
           </div>
-          <div className="absolute flex left-[0.55rem] top-[57%]">
+          <div className="absolute flex right-[13%] top-[57%]">
             <div className="flex flex-col w-[12rem]">
               <h4 className="color7 font3 text-[26px]">2013</h4>
               <hr className="w-full border-[3px]" />
@@ -186,7 +186,7 @@ export default function History() {
             </div>
             <span className="border-4 rounded-full border-[#feae46] block w-5 h-5 ml-7 mt-[2rem]" />
           </div>
-          <div className="absolute flex left-[0.55rem] top-[77%]">
+          <div className="absolute flex right-[13%] top-[77%]">
             <div className="flex flex-col w-[12rem]">
               <h4 className="color7 font3 text-[26px]">2010</h4>
               <hr className="w-full border-[3px]" />
@@ -197,7 +197,7 @@ export default function History() {
             </div>
             <span className="border-4 rounded-full border-[#feae46] block w-5 h-5 ml-7 mt-[2rem]" />
           </div>
-          <div className="absolute flex left-[0.55rem] top-[97%]">
+          <div className="absolute flex right-[13%] top-[97%]">
             <div className="flex flex-col w-[12rem]">
               <h4 className="color7 font3 text-[26px]">2005</h4>
               <hr className="w-full border-[3px]" />
