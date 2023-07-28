@@ -35,6 +35,9 @@
   left: 10%;
   transition: all 0.5s ease-in-out;
 }
+.about-head2 h1 {
+  font-size: 2rem;
+}
 .about-head img {
   width: 100%;
   height: auto;

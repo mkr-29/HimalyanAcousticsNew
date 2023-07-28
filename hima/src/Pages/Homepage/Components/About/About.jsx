@@ -6,6 +6,7 @@ import Asset2 from "./Assets/cielingsystems.png";
 import AboutCarousel from "./AboutCarousel";
 import ytbe from "../Achievements/Assets/ytbe.png";
 import AMD from "./Assets/amd.png";
+import AirNoise from "../../../InspiringDesign/Assets/img11.png";
 
 const images = [Asset2, Asset2, Asset2, Asset2, Asset2];
 export default function About() {
@@ -20,33 +21,22 @@ export default function About() {
           <img src={ytbe} className="w-full h-[82%]" alt="" />
         </div>
       </div>
-      <div className="achievements-body container px-2 grid lg:grid-cols-2 grid-cols-1 my-10 2xl:px-0 gap-20">
-        <div className="flex flex-col w-full z-10">
-          <h3 className="font1 font-bold text-[28px] color1">
-            Introducing Carbon Adsorb Panels for Air
-          </h3>
-          <h2 className="font1 font-bold text-[28px] mt-2 leading-3 color1">
-            & Noise Pollution
-          </h2>
-          <p className="text-justify color3 font1 font-light leading-10 text-[26px] mt-6">
-            Stabilized by chemical impregnation, Sound Barrier Acoustical
-            Facades panel made of long, strong wood fiber and cement. Good heat
-            resistance and high noise reduction performance are two of the
-            advantages of these barriers. Since sound insulation and acoustic
-            treatment of rooms like wall and ceiling are common, it is commonly
-            used.
-          </p>
-          <Link className="color3 text-[22px] color4" to="">
-            Read More...
-          </Link>
-        </div>
+      <div className="achievements-body h-auto my-10 container px-2 grid lg:grid-cols-2 grid-cols-1 2xl:px-0 gap-20">
+        <Link to="" className="about-head about-head2">
+          <img src={AirNoise} alt="" />
+          <h1 className="font1 font-bold text-[22px] color1">
+            Introducing Carbon Adsorb Panels
+            <br />
+            for Air & Noise Pollution
+          </h1>
+        </Link>
 
-        <div className="achievements-body container px-2 grid lg:grid-cols-2 grid-cols-1 2xl:px-0 gap-20">
-          <div className="flex flex-col gap-2">
+        <div className="achievements-body container px-2 grid grid-cols-1 2xl:px-0 gap-20">
+          <div className="flex flex-col gap-2 w-full">
             <h1 className="about-head 2xl:text-[28px] color1">
               Featured Projects
             </h1>
-            <div className="flex gap-4">
+            <div className="flex gap-[0.4rem] border-2 p-2 border-gray-200 w-full">
               <div className="banner flex flex-col justify-centre justify-center items-center w-28">
                 <img src={Asset1} alt="" className="max-w-[14.5rem]" />
                 <div className="banner-in top-2 flex flex-col items-start p-2">
