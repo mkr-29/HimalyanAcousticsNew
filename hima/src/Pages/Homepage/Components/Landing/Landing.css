@@ -8,6 +8,21 @@
   background-position: center;
   margin-left: 4.7rem;
 }
+.ha-landing .slick-slide img {
+  padding: 0 3.8rem;
+}
+/* .ha-landing .slick-dots {
+  display: block;
+  rotate: 90deg;
+  bottom: -5rem;
+  left: 19rem;
+} */
+/* .ha-landing .slick-dots li button:before {
+  font-size: 16px;
+} */
+.ha-landing .slick-active .active-dot {
+  background-color: var(--color3);
+}
 @media screen and (max-width: 400px) {
   .landing-image {
     margin-top: 6rem;
