@@ -61,48 +61,71 @@ export default function About() {
             <h1 className="about-head 2xl:text-[28px] color1">
               Featured Projects
             </h1>
-            <div className="flex gap-6">
-              <div className="banner flex flex-col justify-centre justify-center items-center w-36">
-                <img src={Asset1} alt="" className="max-w-[18rem]" />
-                <div className="banner-in top-2 flex flex-col items-start">
-                  <span className="text-[26px] font-bold mt-2 color1">
+            <div className="flex gap-4">
+              <div className="banner flex flex-col justify-centre justify-center items-center w-28">
+                <img src={Asset1} alt="" className="max-w-[14.5rem]" />
+                <div className="banner-in top-2 flex flex-col items-start p-2">
+                  <span className="text-[23px] font-bold mt-0 color1">
                     Aphony Fibrete Panels
                   </span>
                   <span className="font3 text-[26px] mt-4 color3 font-black">
                     1 NRC
                   </span>
-                  <span className="text-[26px] leading-8 mt-5 color3 font-extralight">
+                  <span className="text-[23px] leading-8 mt-5 color3 font-extralight">
                     Wood Fibre Cement
                   </span>
-                  <span className="text-[26px] leading-8 color3 font-extralight">
+                  <span className="text-[23px] leading-6 color3 font-extralight">
                     Bonded Cieling Systems
                   </span>
-                  <span className="text-[26px] leading-5 mt-7 color3 font-extralight">
+                  <span className="text-[23px] leading-3 mt-7 color3 font-extralight">
                     excellent absorption
                   </span>
                 </div>
               </div>
               <div className="banner flex flex-col justify-centre justify-center items-center w-36">
-                <img src={Asset1} alt="" className="max-w-[18rem]" />
+                <img src={Asset1} alt="" className="max-w-[14.5rem]" />
                 <div className="banner-in1 w-[78%] flex flex-col items-start top-2">
-                  <span className="text-[26px] font-bold mt-2 color1">
+                  <span className="text-[23px] font-bold mt-2 color1">
                     Silent Series
                   </span>
                   <span className="font3 text-[26px] mt-4 color3 font-black">
                     UPTO 60 STC
                   </span>
-                  <span className="text-[26px] leading-8 mt-5 color3 font-extralight">
+                  <span className="text-[23px] leading-8 mt-5 color3 font-extralight">
                     Partitions &
                   </span>
-                  <span className="text-[26px] leading-8 color3 font-extralight">
+                  <span className="text-[23px] leading-6 color3 font-extralight">
                     Door Systems
                   </span>
-                  <span className="text-[26px] leading-5 mt-7 color3 font-extralight">
+                  <span className="text-[23px] leading-5 mt-7 color3 font-extralight">
+                    optimized insulation
+                  </span>
+                </div>
+              </div>
+              <div className="banner flex flex-col justify-centre justify-center items-center w-36">
+                <img src={Asset1} alt="" className="max-w-[14.5rem]" />
+                <div className="banner-in1 w-[78%] flex flex-col items-start top-2">
+                  <span className="text-[23px] font-bold mt-2 color1">
+                    Silent Series
+                  </span>
+                  <span className="font3 text-[26px] mt-4 color3 font-black">
+                    UPTO 60 STC
+                  </span>
+                  <span className="text-[23px] leading-8 mt-5 color3 font-extralight">
+                    Partitions &
+                  </span>
+                  <span className="text-[23px] leading-6 color3 font-extralight">
+                    Door Systems
+                  </span>
+                  <span className="text-[23px] leading-5 mt-7 color3 font-extralight">
                     optimized insulation
                   </span>
                 </div>
               </div>
             </div>
+            <Link className="color4 text-[24px]" to="">
+              Read More...
+            </Link>
           </div>
         </div>
       </div>
