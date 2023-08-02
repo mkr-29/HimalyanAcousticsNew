@@ -11,42 +11,39 @@
 
 .nav-up {
   width: 100%;
-  background-color: #404040;
+  background-color: var(--color1);
   display: flex;
   justify-content: space-between;
   color: white;
-  padding: 0.4rem 0;
+  padding: 0.4rem 4rem;
 }
 
 .nav-up-left {
   display: flex;
   align-items: flex-end;
-  width: 40%;
-  justify-content: space-around;
-  margin-left: 5rem;
+  width: 21%;
+  justify-content: space-between;
 }
 
 .nav-up-links {
-  font-size: 10px;
-  /* font-weight: 600; */
-  color: #d7d7d7;
-  font-family: 'TelegrafBold', sans-serif;
+  font-size: 16px;
+  color: var(--color2);
+  font-family: var(--font1);
 }
 
 .nav-up-links:hover {
-  color: #AFB0B0;
+  color: #afb0b0;
 }
 
 .nav-up-right a img {
-  width: 20px;
+  width: 23px;
 }
 
 .nav-up-right {
   display: flex;
   align-items: center;
   gap: 0.2rem;
-  margin-right: 5rem;
-  width: 8%;
+  width: 9%;
   justify-content: space-between;
 }
 
@@ -93,7 +90,7 @@
 .dropdown-menu {
   display: none;
 }
-.menu-bar{
+.menu-bar {
   display: none;
 }
 .menu-bar ul li:hover .dropdown-menu {
@@ -106,7 +103,7 @@
   width: 120%;
   color: #262626;
 }
-.nav-lg{
+.nav-lg {
   display: flex;
   width: 82%;
   list-style: none;
@@ -115,10 +112,10 @@
   padding-right: 0rem;
   gap: 2rem;
 }
-.himalyan-logo{
-  width: 140px;
+.himalyan-logo {
+  width: 160px;
 }
-.nav-icos{
+.nav-icos {
   width: 50px;
 }
 .menu-bar ul li:hover .dropdown-menu ul {
@@ -143,7 +140,7 @@
   display: block;
   position: absolute;
   left: 170px;
-  top: -0.60rem;
+  top: -0.6rem;
   background-color: var(--color-black);
 }
 
@@ -156,7 +153,6 @@
 .dropdown-menu ul li:hover .dropdown-menu-1 ul li {
   width: 100%;
 }
-
 
 @keyframes shake {
   0% {
@@ -175,18 +171,18 @@
 .nav-down {
   display: flex;
   width: 100%;
-  background-color: white;
-  padding: 0.2rem 0;
+  background-color: var(--color2);
+  padding: 0.5rem 4rem;
 }
 
 .nav-down-links {
-  font-size: 13px;
-  font-family: 'TelegrafBold', sans-serif;
-  font-weight: 600;
+  font-size: 18px;
+  font-family: var(--font1);
+  color: var(--color1);
 }
 
 .home-icon {
-  background-color: #DD2B1C;
+  background-color: #dd2b1c;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -214,12 +210,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 6rem;
   width: 100%;
 }
 
 .nav-items {
-  width: 60%;
+  width: 36%;
 }
 
 .nav-items ul {
@@ -229,16 +224,15 @@
 }
 
 .active-navs {
-  /* text-decoration: underline; */
-  font-size: 13px;
-  font-family: 'TelegrafBold', sans-serif;
-  font-weight: 600;
-  color: #898989;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: var(--font1);
+  color: var(--color1);
 }
 
 .active-navline {
-  border-bottom: 3px solid #ffffff;
-  width: 33%;
+  border-bottom: 1px solid #ffffff;
+  width: 80%;
   display: block;
   transition: all 400ms ease;
 }
@@ -246,7 +240,8 @@
 .active-navs > .active-navline {
   display: block;
   transition: all 400ms ease;
-  border-bottom: 3px solid #dd2b1c;
+  border-bottom: 1px solid #dd2b1c;
+  margin-left: 2px;
 }
 
 .icos {
@@ -283,13 +278,12 @@
 .home-icon img:nth-child(2) {
   width: 38px;
   padding-top: 10px;
-
 }
 
 .nav-up-links.active {
   color: #dd2b1b;
   font-size: 10px;
-  font-family: 'TelegrafBold', sans-serif;
+  font-family: "TelegrafBold", sans-serif;
   font-weight: 600;
 }
 @media screen and (max-width: 950px) {
@@ -309,7 +303,7 @@
     align-items: center;
     /* flex-wrap: wrap; */
   }
-  .nav-up-links{
+  .nav-up-links {
     font-size: 8px;
   }
 
@@ -328,7 +322,6 @@
     position: absolute;
     right: 1rem;
   }
-  
 
   .header-wrapper .nav-items ul {
     flex-direction: column;
@@ -391,38 +384,38 @@
   .header-wrapper {
     padding: 0;
   }
-  .nav-up-right a img{
+  .nav-up-right a img {
     width: 16px;
   }
-  .menu-bar{
+  .menu-bar {
     display: block;
     width: 100%;
   }
-  .nav-up-left{
+  .nav-up-left {
     display: none;
   }
-  .nav-lg{
+  .nav-lg {
     padding-right: 0;
     margin-left: 1rem;
   }
-  .nav-down{
+  .nav-down {
     padding: 0.5rem 0;
   }
 }
 
-.menu-bar ul li:hover .dropdown-menu ul li:hover{
+.menu-bar ul li:hover .dropdown-menu ul li:hover {
   background-color: #898989;
   width: 100%;
   margin-left: 0;
 }
 
-@media screen and (max-width: 1150px){
-  .header-wrapper{
+@media screen and (max-width: 1150px) {
+  .header-wrapper {
     padding: 0 2rem;
   }
 }
-@media screen and (max-width: 950px){
-  .header-wrapper{
+@media screen and (max-width: 950px) {
+  .header-wrapper {
     padding: 0 1rem;
   }
 }

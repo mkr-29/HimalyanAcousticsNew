@@ -4,19 +4,13 @@
   justify-content: center;
   align-items: center;
 }
-.achievements-body {
-  width: 90%;
-}
 .ach-head {
-  color: #898989;
-  font-size: 35px;
   font-weight: 700;
   font-family: TelegrafBold;
 }
 .achievement-container {
   display: flex;
   flex-direction: column;
-  margin-left: -4px;
 }
 .ach-cont-1,
 .ach-cont-2 {
@@ -28,17 +22,6 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding: 10px;
-}
-.achievement h3 {
-  font-size: 30px;
-  color: #e31e24;
-  font-family: TelegrafRegular;
-}
-.achievement p {
-  font-size: 12px;
-  text-align: center;
-  font-family: TelegrafRegular;
 }
 .ach-cont-1 .achievement:first-of-type,
 .ach-cont-1 .achievement:nth-of-type(2),
@@ -46,22 +29,22 @@
 .ach-cont-1 .achievement:nth-of-type(4) {
   border-bottom: 2px solid #e6e6e6;
 }
-.ach-cont-1 .achievement:nth-of-type(2),
-.ach-cont-1 .achievement:nth-of-type(3) {
+.ach-cont-1 .achievement:nth-of-type(2) {
   border-right: 2px solid #e6e6e6;
+  align-items: center;
 }
 .ach-cont-1 .achievement:nth-of-type(2) {
   border-left: 2px solid #e6e6e6;
 }
-.ach-cont-2 .achievement:nth-of-type(2),
-.ach-cont-2 .achievement:nth-of-type(3) {
+.ach-cont-2 .achievement:nth-of-type(2) {
   border-right: 2px solid #e6e6e6;
+  align-items: center;
+}
+.achievement:nth-of-type(3) {
+  align-items: center;
 }
 .ach-cont-2 .achievement:nth-of-type(2) {
   border-left: 2px solid #e6e6e6;
-}
-.achievement p {
-  width: 78%;
 }
 /* .refimg{
     width: 200px;
@@ -80,9 +63,6 @@
   }
   .reflogos img {
     width: 80px;
-  }
-  .ach-head {
-    font-size: 28px;
   }
   .ach-cont-1,
   .ach-cont-2 {

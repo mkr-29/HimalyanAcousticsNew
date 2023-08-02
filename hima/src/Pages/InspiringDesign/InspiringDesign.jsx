@@ -1,104 +1,94 @@
 import React from "react";
-import "./InspiringDesign.css";
-import Img1 from "./Assets/img1.png";
-import Img2 from "./Assets/img2.png";
-import Img3 from "./Assets/img3.png";
-import Img4 from "./Assets/img4.png";
-import Img5 from "./Assets/img5.png";
-import Img6 from "./Assets/img6.png";
-import Img7 from "./Assets/img7.png";
-import Img8 from "./Assets/img8.png";
-import Img9 from "./Assets/img9.png";
-import Img10 from "./Assets/img10.png";
-import Img11 from "./Assets/img11.png";
-import Img12 from "./Assets/img12.png";
+import Image1 from "./Assets/img1.png";
+import Image2 from "./Assets/img2.png";
+import Image3 from "./Assets/img3.png";
+import Image4 from "./Assets/img4.png";
+import Image5 from "./Assets/img5.png";
+import Image6 from "./Assets/img6.png";
+import Image7 from "./Assets/img7.png";
+import Image8 from "./Assets/img8.png";
+import Image9 from "./Assets/img9.png";
+import Image10 from "./Assets/img10.png";
+import Image11 from "./Assets/img11.png";
+import InspCarousel from "./InspCarousel";
+import Asset1 from "./Assets/asset1.png";
+import Asset2 from "./Assets/asset2.png";
+import Asset3 from "./Assets/asset3.png";
+import Asset4 from "./Assets/asset4.png";
+import Asset5 from "./Assets/asset5.png";
+import Asset6 from "./Assets/asset6.png";
+import Asset7 from "./Assets/asset7.png";
+import Asset8 from "./Assets/asset8.png";
+import Asset9 from "./Assets/asset9.png";
+import Asset10 from "./Assets/asset10.png";
+import Asset11 from "./Assets/asset11.png";
+import Asset12 from "./Assets/asset12.png";
+
+const assets = [
+  Asset1,
+  Asset2,
+  Asset3,
+  Asset4,
+  Asset5,
+  Asset6,
+  Asset7,
+  Asset8,
+  Asset9,
+  Asset10,
+  Asset11,
+  Asset12,
+];
+
+const data = [
+  "Healthcare",
+  "Corporate Office",
+  "Cinemas",
+  "Auditoriums",
+  "Lecture Hall",
+  "Disco's",
+  "Worship Hall",
+  "Banquet Hall",
+  "Hotels",
+  "Gymnasium",
+  "Home Theatre",
+  "Studio's",
+];
 
 export default function InspiringDesign() {
   return (
-    <>
-      <div className="inspiring-design">
-        <div className="flex flex-col w-full 2xl:w-1/2 2xl:ml-24 pt-14 2xl:pr-20 px-4">
-          <h1 className="inspd-head">
-            Acoustic
-            <br />
-            <span className="font-bold">Meet Design</span>
-          </h1>
-          <p className="text-justify 2xl:pt-10 text-sm pt-4">
-            In years past, acoustic treatments were all about form and function.
-            But new materials are changing the way the wall and ceiling industry
-            can use acoustic treatments as part of the aesthetics of a space,
-            and the sky is the limit.
-            <br />
-            <br />
-            Acoustical treatment solutions are no exception, and play an
-            important role in the redesign of workspaces, schools, healthcare
-            facilities, hospitality venues, and so on. Now acoustic products are
-            getting the attention they deserve and are no longer an
-            afterthought, acoustical treatments are just as important as décor
-            and aesthetics & décor while controlling sound.
-            <br />
-            <br />
-            Acoustical products are moving beyond functionality and are being
-            used as art, advertising images and decoration.
-            <br />
-            <br />
-            Our new ranges of products are an amalgamation of Acoustics + Design
-            delivering high performance and yet a design option to be
-            incorporated in a space, making our solution easier for the A&D
-            Community to specify.
-          </p>
+    <div className="mt-[7rem] bg-grey px-4">
+      <h1 className="font2 text-[32px] color3 py-10 pt-12">
+        Inspiring <span className="font3">Design</span>
+      </h1>
+      <div>
+        <div className="flex gap-4">
+          <img src={Image1} className="w-[49.5%] h-[49.5%]" alt="" />
+          <img src={Image2} className="w-[49.5%] h-[49.5%]" alt="" />
+        </div>
+        <div className="mt-4 flex gap-4">
+          <img src={Image3} className="w-[49.5%]" alt="" />
+          <div className="w-[49.5%] relative flex gap-4 flex-wrap">
+            <img src={Image4} className="w-[48.9%] h-[48.4%]" alt="" />
+            <img src={Image5} className="w-[48.9%] h-[48.4%]" alt="" />
+            <img src={Image6} className="w-[48.9%] h-[48.4%]" alt="" />
+            <img src={Image7} className="w-[48.9%] h-[48.4%]" alt="" />
+          </div>
+        </div>
+        <div className="flex mt-4">
+          <img src={Image8} alt="" />
+        </div>
+        <div className="flex gap-4 mt-4 relative h-[50rem]">
+          <img src={Image9} className="w-[34%] h-auto" alt="" />
+          <img src={Image10} className="w-[65%] h-auto" alt="" />
+        </div>
+        <div className="flex mt-4">
+          <img src={Image11} className="w-full" alt="" />
         </div>
       </div>
-      <div className="designs">
-        <div className="des-1">
-          <h2>#1 NRC</h2>
-          <img src={Img1} alt="" />
-        </div>
-        <div className="des-1">
-          <h2>#seamless chroma wall</h2>
-          <img src={Img2} alt="" />
-        </div>
-        <div className="des-1">
-          <h2>#plan system</h2>
-          <img src={Img3} alt="" />
-        </div>
-        <div className="des-1">
-          <h2>#exposed system</h2>
-          <img src={Img4} alt="" />
-        </div>
-        <div className="des-1">
-          <h2>#creative</h2>
-          <img src={Img5} alt="" />
-        </div>
-        <div className="des-1">
-          <h2>#wood</h2>
-          <img src={Img6} alt="" />
-        </div>
-        <div className="des-1">
-          <h2>#float</h2>
-          <img src={Img7} alt="" />
-        </div>
-        <div className="des-1">
-          <h2>#clouds & shape</h2>
-          <img src={Img8} alt="" />
-        </div>
-        <div className="des-1">
-          <h2>#baffles & cells</h2>
-          <img src={Img9} alt="" />
-        </div>
-        <div className="des-1">
-          <h2>#fabric</h2>
-          <img src={Img10} alt="" />
-        </div>
-        <div className="des-1">
-          <h2>#sound barrier (Co2 absorbent)</h2>
-          <img src={Img11} alt="" />
-        </div>
-        <div className="des-1 des-2">
-          <h2>#silent (acoustic drywall partion & door)</h2>
-          <img src={Img12} alt="" />
-        </div>
+      <h1 className="font3 text-[32px] pt-14 pb-2 color3">Application</h1>
+      <div className="inspiring-design-carousel pb-24 overflow-hidden">
+        <InspCarousel images={assets} data={data} />
       </div>
-    </>
+    </div>
   );
 }

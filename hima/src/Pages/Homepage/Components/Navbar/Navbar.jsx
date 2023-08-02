@@ -1,19 +1,12 @@
 import "./Navbar.css";
 import Facebook from "./Assets/fb.png";
 import Linkedin from "./Assets/ln.png";
-import Whatsapp from "./Assets/wa.png";
+import Youtube from "./Assets/yt.png";
 import Instagram from "./Assets/in.png";
-import Home from "./Assets/home.png";
-import HomeAc from "./Assets/home-ac.svg";
-import HomeIn from "./Assets/home-in.svg";
 import HimalyanLogo from "./Assets/hima-logo.png";
 import React, { useState } from "react";
 import { Cross as Hamburger } from "hamburger-react";
 import { Link, NavLink, useLocation } from "react-router-dom";
-import Icon1 from "./Assets/logo1.png";
-import Icon2 from "./Assets/logo2.png";
-import Icon3 from "./Assets/logo3.png";
-import Icon4 from "./Assets/logo4.png";
 
 export default function Navbar() {
   const [isOpen, setOpen] = useState(false);
@@ -43,36 +36,18 @@ export default function Navbar() {
               <div class="dropdown-menu">
                 <ul>
                   <li>
-                    <NavLink
-                      className={isUpLinkActive("./sustainability")}
-                      to="/sustainability"
-                    >
-                      Sustainability
-                    </NavLink>
-                  </li>
-                  <li>
                     <Link className="nav-up-links" to="/">
                       Partner With Us
                     </Link>
                   </li>
                   <li>
                     <Link className="nav-up-links" to="/">
-                      International
-                      <br />
-                      Collaboration
+                      Global Collaboration
                     </Link>
                   </li>
                   <li>
-                    <NavLink
-                      className={isUpLinkActive("./certification")}
-                      to="/certification"
-                    >
-                      Certification
-                    </NavLink>
-                  </li>
-                  <li>
                     <Link className="nav-up-links" to="/">
-                      Carriers@HA
+                      Carriers
                     </Link>
                   </li>
                 </ul>
@@ -81,26 +56,22 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="nav-up-left">
-          <NavLink
+          {/* <NavLink
             className={isUpLinkActive("./sustainability")}
             to="/sustainability"
           >
             Sustainability
-          </NavLink>
+          </NavLink> */}
           <Link className="nav-up-links" to="/">
             Partner With Us
           </Link>
+          <span className="bg-white w-[0.1px] h-full" />
           <Link className="nav-up-links" to="/">
-            Iinternational Collaboration
+            Global Collaboration
           </Link>
-          <NavLink
-            className={isUpLinkActive("./certification")}
-            to="/certification"
-          >
-            Certification
-          </NavLink>
+          <span className="bg-white w-[1px] h-full" />
           <Link className="nav-up-links" to="/">
-            Carriers@HA
+            Carriers
           </Link>
         </div>
         <div className="nav-up-right">
@@ -114,7 +85,7 @@ export default function Navbar() {
             <img src={Linkedin} alt="ln" />
           </Link>
           <Link className="nav-up-links" to="/">
-            <img src={Whatsapp} alt="tw" />
+            <img src={Youtube} alt="tw" />
           </Link>
         </div>
       </div>
@@ -132,39 +103,6 @@ export default function Navbar() {
                 className="himalyan-logo"
               />
             </NavLink>
-            <li className="nav-icos">
-              <div className="icos">
-                <Link className="nav-down-icos" to="/">
-                  {/* random image from the internet */}
-                  <img
-                    src={Icon1}
-                    alt="himalyan-logo"
-                    className="himalyan-logo"
-                  />
-                </Link>
-                <Link className="nav-down-icos" to="/">
-                  <img
-                    src={Icon2}
-                    alt="himalyan-logo"
-                    className="himalyan-logo"
-                  />
-                </Link>
-                <Link className="nav-down-icos" to="/">
-                  <img
-                    src={Icon3}
-                    alt="himalyan-logo"
-                    className="himalyan-logo"
-                  />
-                </Link>
-                <Link className="nav-down-icos" to="/">
-                  <img
-                    src={Icon4}
-                    alt="himalyan-logo"
-                    className="himalyan-logo"
-                  />
-                </Link>
-              </div>
-            </li>
           </div>
 
           <div onClick={onClickHeader} className="menu">
@@ -182,6 +120,7 @@ export default function Navbar() {
                   Home
                   <span className="active-navline" />
                 </NavLink>
+                <span className="bg-black w-[1px] h-full" />
               </li>
               <li>
                 <NavLink
