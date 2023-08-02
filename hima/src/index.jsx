@@ -11,7 +11,7 @@ import Projects from "./Pages/Projects/Projects";
 import Sustainability from "./Pages/Sustainability/Sustainability";
 import Contact from "./Pages/ContactUs/Contact";
 import Certification from "./Pages/Certification/Certification";
-import Layout from "./Components/Layout";
+import Layout from "./Components/Layout"; 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
