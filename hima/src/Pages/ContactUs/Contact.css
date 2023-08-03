@@ -2,9 +2,6 @@
   margin-top: 8.7rem;
   @apply bg-gray-200;
 }
-.s1text {
-  @apply text-gray-800;
-}
 .con-cards div {
   width: 48%;
 }
@@ -43,7 +40,7 @@
   @apply flex flex-wrap justify-around p-20 gap-20;
 }
 .contact-card {
-  @apply p-8 bg-white h-max rounded-md;
+  @apply p-8 bg-white h-max rounded-md px-20;
 }
 .contact-card h2 {
   @apply uppercase text-2xl font-bold;
